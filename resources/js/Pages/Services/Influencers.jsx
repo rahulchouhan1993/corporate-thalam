@@ -112,7 +112,7 @@ export default function Influencers(){
     </div>
     <div class="col-lg-12">
     <div class="bottom-btn1 brand-4 blue-btn">
-        <a href="#">Contact Us</a>
+        <a href="#" class="btn-primary">Contact Us</a>
     </div>
     </div>
     </div>
@@ -128,7 +128,7 @@ export default function Influencers(){
         </div>
         <div class="col-lg-12">
     <div class="bottom-btn1 brand-4 blue-btn">
-        <a href="#">Read This</a>
+        <a href="#" class=" btn-sm-typ">Read This</a>
     </div>
         </div>
     </div>

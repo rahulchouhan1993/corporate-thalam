@@ -45,7 +45,7 @@ export default function Branding(){
             <div className="container">
             <div className="row">
                 <div className="col-lg-8 col-md-8 col-12">
-                <div className="brand-head">
+                <div className="brand-head nin-tq">
                     <h1>PROFESSIONAL <span>VISUAL</span> BRANDING</h1>
                     <p>
                     High-quality photoshoots, videos, and content that reflect your personality and goals.
