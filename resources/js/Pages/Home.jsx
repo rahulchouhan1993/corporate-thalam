@@ -32,7 +32,7 @@ export default function Home(){
               <img src="images/Banner-bg-gif.gif" alt="Background GIF" />
             </div>
             <div className="videoCnt">
-              <h1>Best <span>Branding & Video Production</span> Company in South afrika India</h1>
+              <h1>Best <span>Branding & Video Production</span> Company in South India</h1>
             </div>
         </section>
 
