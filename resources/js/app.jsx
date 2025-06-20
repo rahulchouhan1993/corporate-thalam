@@ -1,5 +1,6 @@
 
-import '../css/app.css'
+import '../css/style.css'
+import '../css/responsive.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import { createInertiaApp } from '@inertiajs/react'
@@ -22,3 +23,4 @@ createInertiaApp({
     color: '#000'
   }
 })
+

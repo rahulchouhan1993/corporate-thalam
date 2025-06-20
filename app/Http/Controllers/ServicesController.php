@@ -19,6 +19,8 @@ class ServicesController extends Controller
             return inertia("Services/InfluencerDetails");
         }else if($slug=='editing-and-color-grading'){
             return inertia("Services/Editing");
+        }else if($slug=='event-managment'){
+            return inertia("Services/EventManagment");
         }else if($slug=='personal-branding'){
             return inertia("Services/Branding");
         }else if($slug=='traning-certification'){

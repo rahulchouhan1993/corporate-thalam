@@ -1,16 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Inertia\Inertia;
 use Illuminate\Http\Request;
 
 class HomesController extends Controller
 {
     public function index(){
-        return inertia('Home');
+        return Inertia::render('Home');
     }
 
     public function aboutUs(){
-        return inertia('About');
+        return Inertia::render('About');
     }
 }
