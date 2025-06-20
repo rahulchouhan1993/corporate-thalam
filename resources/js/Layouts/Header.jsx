@@ -48,7 +48,7 @@ export default function Header(){
                             </li>
                             <li className="nav-item" onClick={() => scrollToSection('scroll-studies')}>
                                 <a className="nav-link" href="javascript:void(0);">case studies</a>
-                            </li>
+                            </li> 
                             <li className="nav-item" onClick={() => scrollToSection('scroll-team')}>
                                 <a className="nav-link" href="javascript:void(0);">team</a>
                             </li>
