@@ -41,7 +41,7 @@ export default function EventManagment(){
         </div>
       </div>
     </section>
-    <section className="strategic-sec ser-4 ser-510">
+    <section className="strategic-sec ser-4 corpoevent">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

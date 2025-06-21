@@ -33,10 +33,19 @@ export default function Training(){
                 </div>
                 </div>
                 <div className="col-lg-6">
-                <div className="brand-photo">
-                    <img src="/images/digi.png" alt="" />
-                    <img src="/images/digi2.png" alt="" />
-                </div>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="brand-photo">
+                                <img className="p-0" src="/images/digi.png" alt="" />
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="brand-photo">
+                                <img className="p-0" src="/images/digi2.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                
                 </div>
             </div>
             </div>
@@ -45,16 +54,25 @@ export default function Training(){
             <div className="container">
             <div className="row">
                 <div className="col-lg-12">
-                <div className="brand-head">
+                <div className="brand-head brandcourse">
                     <h1><span>CT25 Certification</span>  for Career Boost Learn. Build. Brand Yourself.</h1>
                     
                 </div>
                 </div>
                 <div className="col-lg-12">
-                <div className="brand-photo">
-                    <img src="/images/img1.png" alt="" />
-                    <img src="/images/img2.png" alt="" />
-                </div>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="brand-photo">
+                                <img className="p-0" src="/images/img1.png" alt="" />
+                            </div>
+                        </div>
+                         <div className="col-lg-6">
+                            <div className="brand-photo">
+                                <img className="p-0" src="/images/img2.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+               
                 </div>
                 <div className="col-lg-12">
                 <div className="stragetic-box-bottom">

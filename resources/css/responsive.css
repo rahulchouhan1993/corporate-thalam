@@ -2147,3 +2147,25 @@
   }
 
 }
+
+@media (max-width: 1199px) {
+.services-4\.0 .herobanner-head h1 { width: 100%; }
+
+}
+
+
+@media (max-width: 991px) {
+.herobanner-head h1 { font-size: 42px;}
+
+}
+
+
+@media (max-width: 767px) { 
+.herobanner-head h1 { font-size: 28px; } 
+
+}
+
+@media (max-width: 767px) { 
+.herobanner-head h1 { font-size: 22px; } 
+
+}

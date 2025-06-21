@@ -28,6 +28,10 @@ export default function Home(){
     return (
     <>
         <div className="homevideobanner">
+            <span className="toplayer"></span>
+            <span className="bottomlayer"></span>
+            <span className="topleftlayer"></span>
+            <span className="bottomrightlayer"></span>
             <section className="videoSec">
                 <div className="video-bg">
                 <img src="images/Banner-bg-gif.gif" alt="Background GIF" />
