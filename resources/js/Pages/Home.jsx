@@ -27,14 +27,16 @@ export default function Home(){
     ];
     return (
     <>
-        <section className="videoSec">
-            <div className="video-bg">
-              <img src="images/Banner-bg-gif.gif" alt="Background GIF" />
-            </div>
-            <div className="videoCnt">
-              <h1>Best <span>Branding & Video Production</span> Company in South India</h1>
-            </div>
-        </section>
+        <div className="homevideobanner">
+            <section className="videoSec">
+                <div className="video-bg">
+                <img src="images/Banner-bg-gif.gif" alt="Background GIF" />
+                </div>
+                <div className="videoCnt">
+                <h1>Best <span>Branding & Video Production</span> Company in South India</h1>
+                </div>
+            </section>
+        </div>
 
         <section className="services-section" >
             <h2 id="scroll-services">OUR <span className="highlight">SERVICES</span>
@@ -128,51 +130,51 @@ export default function Home(){
                 </h2>
                 <div className="industries-grid">
                     <div className="industry-box">
-                        <img src="images/educationicon.png" alt="Education" />
+                        <img src="images/Education.svg" alt="Education" />
                         <p>Education</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/realicon.png" alt="Real Estate" />
+                        <img src="images/RealEstate.svg" alt="Real Estate" />
                         <p>Real Estate</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/retail.png" alt="Retails" />
+                        <img src="images/Retails.svg" alt="Retails" />
                         <p>Retails</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/eventicon.png" alt="Events" />
+                        <img src="images/Events.svg" alt="Events" />
                         <p>Events</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/financialicon.png" alt="Financial Institutions" />
+                        <img src="images/Financial.svg" alt="Financial Institutions" />
                         <p>Financial Institutions</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/bankicon.png" alt="Banks" />
+                        <img src="images/Banks.svg" alt="Banks" />
                         <p>Banks</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/politicali.png" alt="Political Parties" />
+                        <img src="images/Political.svg" alt="Political Parties" />
                         <p>Political Parties</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/induicon.png" alt="Individuals" />
+                        <img src="images/Individuals.svg" alt="Individuals" />
                         <p>Individuals</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/beauty.png" alt="Beauty & Cosmetics" />
+                        <img src="images/Beauty.svg" alt="Beauty & Cosmetics" />
                         <p>Beauty & Cosmetics</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/hardware.png" alt="Hardware & Software" />
+                        <img src="images/Hardware.svg" alt="Hardware & Software" />
                         <p>Hardware & Software</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/restaurants.png" alt="Restaurants & Night Clubs" />
+                        <img src="images/Restaurants.svg" alt="Restaurants & Night Clubs" />
                         <p>Restaurants & Night Clubs</p>
                     </div>
                     <div className="industry-box">
-                        <img src="images/travel.png" alt="Travel & Tourism" />
+                        <img src="images/Travel.svg" alt="Travel & Tourism" />
                         <p>Travel & Tourism</p>
                     </div>
                 </div>
@@ -289,43 +291,43 @@ export default function Home(){
                 <h2>BECOME OUR MEMBER TO EXPLORE MORE <span className="highlight">OPPORTUNITIES</span></h2>
                 <div className="member-grid">
                     <div className="member-card">
-                        <img src="images/student.png" alt="Students" />
+                        <img src="images/bestudent.svg" alt="Students" />
                         <p>Students</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/corporateemp.png" alt="Corporate Employee" />
+                        <img src="images/beemployee.svg" alt="Corporate Employee" />
                         <p>Corporate Employee</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/business.png" alt="Business Owners" />
+                        <img src="images/BusinessOwners.svg" alt="Business Owners" />
                         <p>Business Owners</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/influencer.png" alt="Social Media Influencer" />
+                        <img src="images/Influencer.svg" alt="Social Media Influencer" />
                         <p>Social media Influencer</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/politician.png" alt="Politician" />
+                        <img src="images/bePolitician.svg" alt="Politician" />
                         <p>Politician</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/vj.png" alt="VJ & Show Hosts" />
+                        <img src="images/VJShowHosts.svg" alt="VJ & Show Hosts" />
                         <p>VJ & Show Hosts</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/model.png" alt="Models" />
+                        <img src="images/Models.svg" alt="Models" />
                         <p>Models</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/editor.png" alt="Editors" />
+                        <img src="images/Editors.svg" alt="Editors" />
                         <p>Editors</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/producer.png" alt="Producers" />
+                        <img src="images/Producers.svg" alt="Producers" />
                         <p>Producers</p>
                     </div>
                     <div className="member-card">
-                        <img src="images/camera.png" alt="Camera Person" />
+                        <img src="images/CameraPerson.svg" alt="Camera Person" />
                         <p>Camera Person</p>
                     </div>
                 </div>

@@ -104,25 +104,25 @@ export default function DigitalMarketing(){
                 <div className="stragetic-box-main">
                     <div className="strategic-boxes">
                     <div className="strategic-boxes-img">
-                        <img src="/images/Mask1.png" />
+                        <img src="/images/GoogleAdd.svg" />
                     </div>
                     <p>Google Ads & PPC</p>
                     </div>
                     <div className="strategic-boxes">
                     <div className="strategic-boxes-img">
-                        <img src="/images/Mask2.png" />
+                        <img src="/images/MediaMarketing.svg" />
                     </div>
                     <p>Social Media Marketing</p>
                     </div>
                     <div className="strategic-boxes">
                     <div className="strategic-boxes-img">
-                        <img src="/images/Mask3.png" />
+                        <img src="/images/cointentcreation.svg" />
                     </div>
                     <p>Content Creation</p>
                     </div>
                     <div className="strategic-boxes">
                     <div className="strategic-boxes-img">
-                        <img src="/images/Mask4.png" />
+                        <img src="/images/MetaBusinessSuit.svg" />
                     </div>
                     <p>Meta Business Suits</p>
                     </div>

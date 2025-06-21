@@ -19,7 +19,7 @@ export default function Branding(){
                 <div className="stragetic-para pargp-3">
                     
                     <p>CT25 help you discover and define your personal brand voice and style.</p>
-                    <p className="m-2">Personal branding for CEOs & entrepreneurs and Politicians. Amplify your identity with a powerful digital campaign strategy — from political campaigns to executive presence, we craft a brand that builds trust, influence, and visibility.</p>
+                    <p>Personal branding for CEOs & entrepreneurs and Politicians. Amplify your identity with a powerful digital campaign strategy — from political campaigns to executive presence, we craft a brand that builds trust, influence, and visibility.</p>
                 
                 </div>
                 </div>

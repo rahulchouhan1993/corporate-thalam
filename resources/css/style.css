@@ -41,6 +41,7 @@ img {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   font-family: "GothamMedium", sans-serif;
 }
 
@@ -60,7 +61,53 @@ ol {
   padding: 0;
   list-style: none;
 }
-
+header {
+  position: relative;
+  z-index: 9;
+}
+header:before {
+  content: '';
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  width: 135px;
+  height: 55px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+header:after {
+  content: '';
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  width: 135px;
+  height: 55px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.homevideobanner { position: relative;}
+.homevideobanner:before {
+  content: '';
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  width: 135px;
+  height: 55px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
+}
+.homevideobanner:after {
+  content: '';
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  width: 135px;
+  height: 55px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+}
 /* Video Section */
 section.videoSec {
   display: flex;
@@ -139,6 +186,7 @@ ul.navbar-nav li .nav-link {
   color: #fff !important;
   font-weight: 400;
   text-transform: uppercase;
+  font-family: "GothamRegular";
 }
 
 ul.navbar-nav li.nav-item {
@@ -211,6 +259,7 @@ ul.navbar-nav li .nav-link:focus {
   background-position: center;
   border-radius: 30px;
   overflow: hidden;
+  display: block;
 }
 
 .service-box img {
@@ -1417,11 +1466,12 @@ ul.navbar-nav li .nav-link:focus {
   border-radius: 20px;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 0px 15px rgb(0 0 0 / 9%);
-  margin: 10px;
+  margin: 0px;
   min-height: 400px;
 }
-
+.review-slider .slick-slide {
+    padding: 10px;
+}
 .review-card img {
   width: 80px;
   height: 80px;
@@ -1556,7 +1606,8 @@ ul.navbar-nav li .nav-link:focus {
   font-size: 16px;
   color: #ccc;
   padding: 15px 0;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: "GothamRegular";
 }
 
 /* Projects Box */
@@ -1568,11 +1619,16 @@ ul.navbar-nav li .nav-link:focus {
   margin-left: 84px;
   width: 100%;
 }
-
+.main-pro-box .project-list ul { 
+  padding: 0; 
+}
+.main-pro-box .project-list2 ul { 
+  padding: 0; 
+}
 .project-box-h ul li,
 .project-box-h2 ul li {
   border: 1px solid black;
-  padding: 17px 46px;
+  padding: 15px 10px;
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -1638,9 +1694,9 @@ li.lil {
 li.lil::after {
   position: absolute;
   top: 23px;
-  left: 232px;
+  right: -72px;
   content: "";
-  width: 39px;
+  width: 72px;
   height: 1.2px;
   background: #000000c9;
 }
@@ -1652,10 +1708,10 @@ li.lid {
 li.lid::after {
   position: absolute;
   top: 66px;
-  left: 101px;
+  left: 42%;
   content: "";
   width: 31px;
-  height: 1.5px;
+  height: 1px;
   background: #000000ed;
   rotate: 90deg;
 }
@@ -1667,11 +1723,11 @@ li.lip {
 li.lip::before {
   position: absolute;
   top: 23px;
-  left: 231px;
+  left: 215px;
   content: "";
   background-image: url(../images/Vector10.png);
-  width: 33%;
-  height: 288%;
+  width: 30%;
+  height: 285%;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 9;
@@ -1767,7 +1823,7 @@ section.brand-shoot {
 section.strategic-sec {
   background: #01123d;
   color: white;
-  padding: 31px 0px 50px 0px;
+  padding: 70px 0px;
   text-align: center;
 }
 
@@ -1776,8 +1832,8 @@ section.strategic-sec {
   justify-content: center;
   align-items: center;
   gap: 101px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .strategic-head h1 {
@@ -1825,6 +1881,7 @@ section.strategic-sec {
   font-size: 24px;
   width: 74%;
   font-weight: 500;
+  line-height: 1.1em;
 }
 
 .strategic-boxes {
@@ -1846,30 +1903,36 @@ section.strategic-sec {
 .stragetic-box-bottom p {
   font-weight: 500;
   font-size: 18px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .bottom-btn a {
-  color: white;
-  border: white solid 1px;
+  color: #fff;
+  border: 1px solid #fff;
   text-decoration: none;
-  padding: 20px 50px;
+  padding: 11px 20px;
   border-radius: 70px;
   font-size: 19px;
   transition: all.5s;
+  display: inline-block;
+  min-width: 230px;
 }
 
 .bottom-btn {
   margin-top: 60px;
 }
-
+.stragetic-box-bottom .bottom-btn {
+    margin-top: 25px;
+}
 .bottom-btn a:hover {
   background: white;
   color: black;
 }
-
+section.strategic-sec.sser-2 .brand-head {
+    margin-top: 0;
+}
 /* SERVICES-PAGE-2 */
 /* HEROBANNER2 */
 .services-2 {
@@ -1895,7 +1958,10 @@ section.strategic-sec {
   margin-left: -54px;
   justify-content: center;
 }
-
+section.brand-shoot.b1 .brand-photo {
+    padding-left: 6px;
+    display: flex;
+}
 .brand-photo img {
   padding-left: 20px;
 }
@@ -2085,11 +2151,11 @@ section.strategic-sec {
 
 .lip12::after {
   position: absolute !important;
-  top: 11px;
-  right: -107px;
+  top: 5px;
+  right: -105px;
   content: "";
-  width: 197px;
-  height: 324px;
+  width: 200px;
+  height: 318px;
   background-image: url("../images/vector-11.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -3390,6 +3456,10 @@ section.pro .row {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.strategic-sec .stragetic-box-bottom {
+    max-width: 1050px;
+    margin: 0 auto;
 }
 .paddi-in .bottom-btn1 {
     margin: 20px 0px;
