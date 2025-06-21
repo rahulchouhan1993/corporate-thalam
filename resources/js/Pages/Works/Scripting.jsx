@@ -17,7 +17,7 @@ export default function Scripting(){
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="trust-head ser-0140">
+            <div className="trust-head ser-0140 concepthead">
               <h1>
                 In CT25 every great production starts with a powerful idea.
               </h1>

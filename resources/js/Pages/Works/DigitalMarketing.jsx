@@ -46,7 +46,7 @@ export default function DigitalMarketing(){
                 <img src="/images/Rectangle 60-2.png" />
               </div>
               <div className="image-content-eent">
-                <h1> Performance-Centric Ad Management</h1>
+                <h1>Performance-Centric Ad Management</h1>
                 <p>Our team handles everything from Meta (Facebook & Instagram) Ads to Google Search & Display
                   Campaigns, ensuring your budget works</p>
               </div>
@@ -110,7 +110,7 @@ export default function DigitalMarketing(){
         <div className="row">
           <div className="col-lg-12">
             <div className="herobanner-head">
-              <h1>Easy to grow your reach and generate real leads?</h1>
+              <h1>Ready to grow your reach and generate real leads?</h1>
               <p>Let CT25 handle the digital hustle while you focus on your business.</p>
             </div>
           </div>

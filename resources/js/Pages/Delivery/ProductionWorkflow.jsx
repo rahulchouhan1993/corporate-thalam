@@ -73,7 +73,7 @@ export default function ProductionWorkflow(){
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-8 col-md-8 col-12">
-            <div className="brand-head seri-011o">
+            <div className="brand-head seri-011o securingbox">
               <h1>CT25 Securing Creativity with ISO STANDARDS</h1>
               <p>
                 In a digital-first era, CT25 stands out as a trusted media production company by implementing ISO 27001
@@ -84,10 +84,10 @@ export default function ProductionWorkflow(){
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-12">
+          <div className="col-lg-4 col-md-4 col-12 px-md-0">
             <div className="cseStudiesRt">
               <div className="followIso service-1ok">
-                <img src="/images/isologo.png" alt="img" />
+                <img src="/images/isomainlogo.svg" alt="img" />
                 <h2>We follow ISO standards in our production workflow</h2>
               </div>
             </div>

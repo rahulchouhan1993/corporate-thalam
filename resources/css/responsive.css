@@ -2148,6 +2148,13 @@
 
 }
 
+
+@media (min-width: 1200px) {
+section.herobanner-services { min-height: 390px; }
+
+}
+
+
 @media (max-width: 1199px) {
 .services-4\.0 .herobanner-head h1 { width: 100%; }
 

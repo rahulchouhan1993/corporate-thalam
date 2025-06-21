@@ -1005,20 +1005,26 @@ ul.navbar-nav li .nav-link:focus {
   padding: 40px 20px;
 }
 
-.followIso img {
-  max-width: 270px;
-  object-fit: contain;
-}
-
 .followIso h2 {
   font-size: 30px;
   font-weight: 400;
   color: #01123d;
   font-family: "Instrument Serif", serif;
   margin-top: 30px;
-  padding: 0 20px;
+  padding: 0;
 }
-
+.trust-foundation.Consistentdata .trust-head {
+  max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 0 20px;
+}
+.trust-foundation.Consistentdata h1 { margin: 0; width: 100%; }
+.trust-foundation.Consistentdata p {
+    padding: 0;
+    width: 100%;
+    max-width: 1050px;
+}
+.concepthead h1, .concepthead p { padding: 0; }
 /* Pricing Section */
 .pricing-section {
   padding: 70px 0;
@@ -1777,6 +1783,8 @@ section.herobanner-services {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1100px; 
+  margin: 0 auto;
 }
 
 .herobanner-head h1 span {
@@ -1791,10 +1799,13 @@ section.brand-shoot {
 }
 
 .brand-head h1 {
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: "GothamBold";
+    letter-spacing: -3px;
+    color: #EBEEF7;
 }
 
 .brand-head p {
@@ -1804,7 +1815,12 @@ section.brand-shoot {
     font-size: 16px;
     color: #413D4D;
 }
-
+.box-left .brand-head.securingbox p {
+    opacity: 1;
+    color: #AAAAAA;
+    font-family: "GothamMedium";
+    margin: 0;
+}
 .brand-head h1 span {
   color: #14a5dc;
 }
@@ -2302,7 +2318,7 @@ videoSec {
   padding-bottom: 30px;
   overflow: hidden;
   transition: all.5s;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .image-content-eent {
@@ -2657,9 +2673,9 @@ section.image-box-marque {
   text-transform: uppercase;
 }
 
-.brand-1 a {
+/* .brand-1 a {
   padding: 20px 30px;
-}
+} */
 
 section.brand-section {
   padding-bottom: 100px;
@@ -2678,19 +2694,19 @@ section.brand-section {
 
 .line-12::before {
   position: absolute;
-  top: 35px;
-  left: -28px;
+  top: 25px;
+  left: -8px;
   width: 38px;
   height: 102px;
   content: "";
-  background-image: url('/images/line-2.png');
+  background-image: url('/images/dotLine.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .line-13::before {
   position: absolute;
-  top: 33px;
+  top: 25px;
   left: -35px;
   width: 47px;
   height: 17px;
@@ -2702,7 +2718,7 @@ section.brand-section {
 
 .line-14::before {
   position: absolute;
-  top: 35px;
+  top: 25px;
   left: -34px;
   width: 60px;
   height: 6px;
@@ -2715,7 +2731,11 @@ section.brand-section {
 .brand-section2 .bottom-btn1 a {
   margin: unset;
 }
-
+section.image-box-marque { overflow: hidden; }
+.marquee-track .image-box-marq { min-width: 320px; }
+.marquee-track .image-box-marq img {
+    margin: 0;
+}
 section.brand-section2 {
   display: flex;
   justify-content: center;
@@ -2759,14 +2779,16 @@ section.brand-section2 {
   content: "";
   width: 100%;
   height: 100%;
-  background: black;
+  background: #020008; 
+  background: radial-gradient(50% 50% at 50% 50%, rgba(2, 0, 8, 0.72) 0%, rgba(2, 0, 8, 0.9) 100%);
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.6;
   z-index: -2;
 }
-
+.influencer .bottom-btn1 {
+    margin-top: 20px;
+}
 .influencer .blue-btn a {
   background: white;
   color: black;
@@ -2828,10 +2850,10 @@ section.brand-section2 {
 }
 
 .paddi-in .herobanner-head p {
-  color: white;
-  font-size: 21px;
-  opacity: 0.5;
-  font-weight: lighter;
+    color: white;
+    font-size: 22px;
+    opacity: 0.7;
+    font-family: "GothamMedium";
 }
 
 .in-f a {
@@ -2893,12 +2915,14 @@ section.highlights {
 .card1 h3 {
   font-size: 80px;
   color: #009ed9;
+  font-family: "GothamMedium";
+  letter-spacing: 2px;
 }
 
 .card1 p {
   width: 71%;
   padding-bottom: 60px;
-  opacity: 0.6;
+  color: rgba(255, 255, 255, .7)
 }
 
 .card1 {
@@ -2913,7 +2937,7 @@ section.highlights {
 
 /* SERVICES-11 */
 .ser-1\.0 h1 {
-  width: 71%;
+  width: 100%;
   font-size: 60px;
 }
 
@@ -2937,9 +2961,11 @@ section.trust-foundation {
 }
 
 .content-trust h2 {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
-
+.content-trust p {
+  margin: 0;
+}
 .tr-1 h1 {
   padding-bottom: 170px;
 }
@@ -2962,7 +2988,7 @@ section.trust-foundation {
 }
 
 .seri-011o {
-  margin: 100px 50px;
+  margin: 85px 0px 85px 25px;
 }
 
 .seri-011o p {
@@ -2984,12 +3010,12 @@ section.trust-foundation {
 .tr-1::before {
   position: absolute;
   top: 98px;
-  left: -1030px;
-  width: 248%;
+  left: 0;
+  width: 100%;
   height: 120px;
   content: "";
-  background-image: url('/images/vector-70.png');
-  background-size: cover;
+  background-image: url('/images/isolayer.svg');
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -3260,9 +3286,46 @@ section.creative .class-one ul li {
 
 .ser-15 ul {
   padding-left: 39px;
-  padding-bottom: 61px;
+  padding-bottom: 30px;
 }
-
+.trust-foundation.Consistentdata {
+    padding-bottom: 0;
+    margin-bottom: -70px;
+}
+.serviceinnerend {
+    border-top: 1px solid rgba(2,0,8,0.2);
+    position: relative;
+    z-index: 1;
+    padding: 30px 0 80px;
+    text-align: center;
+}
+.precisionheading h3 {
+    font-size: 18px;
+    color: #01123D;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "GothamMedium";
+    margin: 0 0 25px;
+}
+.precisionheading .btncreative {
+    background: #01123d;
+    color: white;
+    transition: all .5s;
+    border: #01123d solid 1px;
+    text-decoration: none;
+    padding: 12px 20px;
+    min-width: 220px;
+    text-align: center;
+    border-radius: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+.precisionheading .btncreative:hover {
+  background: #fff;
+  color: #01123d;
+}
 .main-ser-0014 {
   margin: 90px 6px;
   position: relative;
@@ -3372,7 +3435,7 @@ section.pro .row {
   position: relative;
 }
 .ser-101 h1 {
-  width: 80%;
+  width: 95%;
 }
 .ser-0140 {
   display: flex;
