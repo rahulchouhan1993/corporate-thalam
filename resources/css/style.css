@@ -2,32 +2,32 @@
 
 @font-face {
   font-family: "GothamMedium";
-  src: url("../font/GothamMedium.eot");
-  src: url("../font/GothamMedium.eot") format("embedded-opentype"),
-    url("../font/GothamMedium.woff2") format("woff2"),
-    url("../font/GothamMedium.woff") format("woff"),
-    url("../font/GothamMedium.ttf") format("truetype"),
-    url("../font/GothamMedium.svg#GothamMedium") format("svg");
+  src: url("/font/GothamMedium.eot");
+  src: url("/font/GothamMedium.eot") format("embedded-opentype"),
+    url("/font/GothamMedium.woff2") format("woff2"),
+    url("/font/GothamMedium.woff") format("woff"),
+    url("/font/GothamMedium.ttf") format("truetype"),
+    url("/font/GothamMedium.svg#GothamMedium") format("svg");
 }
 
 @font-face {
   font-family: "GothamBold";
-  src: url("../font/GothamBold.eot");
-  src: url("../font/GothamBold.eot") format("embedded-opentype"),
-    url("../font/GothamBold.woff2") format("woff2"),
-    url("../font/GothamBold.woff") format("woff"),
-    url("../font/GothamBold.ttf") format("truetype"),
-    url("../font/GothamBold.svg#GothamBold") format("svg");
+  src: url("/font/GothamBold.eot");
+  src: url("/font/GothamBold.eot") format("embedded-opentype"),
+    url("/font/GothamBold.woff2") format("woff2"),
+    url("/font/GothamBold.woff") format("woff"),
+    url("/font/GothamBold.ttf") format("truetype"),
+    url("/font/GothamBold.svg#GothamBold") format("svg");
 }
 
 @font-face {
   font-family: "GothamRegular";
-  src: url("../font/GothamRegular.eot");
-  src: url("../font/GothamRegular.eot") format("embedded-opentype"),
-    url("../font/GothamRegular.woff2") format("woff2"),
-    url("../font/GothamRegular.woff") format("woff"),
-    url("../font/GothamRegular.ttf") format("truetype"),
-    url("../font/GothamRegular.svg#GothamRegular") format("svg");
+  src: url("/font/GothamRegular.eot");
+  src: url("/font/GothamRegular.eot") format("embedded-opentype"),
+    url("/font/GothamRegular.woff2") format("woff2"),
+    url("/font/GothamRegular.woff") format("woff"),
+    url("/font/GothamRegular.ttf") format("truetype"),
+    url("/font/GothamRegular.svg#GothamRegular") format("svg");
 }
 
 /* Base Reset */
@@ -839,7 +839,7 @@ ul.navbar-nav li .nav-link:focus {
 
 /* Work Section */
 .ourWorkSec {
-  background: url(../images/workbg.jpg) 0 0 no-repeat;
+  background: url('/images/workbg.jpg') 0 0 no-repeat;
   background-size: cover;
   padding: 70px 0;
 }
@@ -953,7 +953,7 @@ ul.navbar-nav li .nav-link:focus {
 .caseStudiesBx {
   display: flex;
   align-items: stretch;
-  background: url(../images/ourcasestudybg.jpg) no-repeat center;
+  background: url('/images/ourcasestudybg.jpg') no-repeat center;
   background-size: cover;
   height: 655px;
 }
@@ -1725,9 +1725,9 @@ li.lip::before {
   top: 23px;
   left: 215px;
   content: "";
-  background-image: url(../images/Vector10.png);
-  width: 30%;
-  height: 285%;
+  background-image: url('/images/Vector10.png');
+  width: 33%;
+  height: 288%;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 9;
@@ -1742,7 +1742,7 @@ li.lip1::after {
   top: -61px;
   right: 163px;
   content: "";
-  background-image: url(../images/vector-11.png);
+  background-image: url('/images/vector-11.png');
   width: 19%;
   height: 595%;
   background-repeat: no-repeat;
@@ -1936,7 +1936,7 @@ section.strategic-sec.sser-2 .brand-head {
 /* SERVICES-PAGE-2 */
 /* HEROBANNER2 */
 .services-2 {
-  background-image: url(../images/Rectangle-32.png);
+  background-image: url('/images/Rectangle-32.png');
   background-color: unset !important;
 }
 
@@ -2111,7 +2111,7 @@ section.brand-shoot.b1 .brand-photo {
 }
 
 .services-4\.0 {
-  background-image: url(../images/service-4.png);
+  background-image: url('/images/service-4.png');
   position: relative;
 }
 
@@ -2128,7 +2128,7 @@ section.brand-shoot.b1 .brand-photo {
 }
 
 .services-3 {
-  background-image: url(../images/imag-bg.png);
+  background-image: url('/images/imag-bg.png');
   position: relative;
 }
 
@@ -2157,6 +2157,9 @@ section.brand-shoot.b1 .brand-photo {
   width: 200px;
   height: 318px;
   background-image: url("../images/vector-11.png");
+  width: 197px;
+  height: 324px;
+  background-image: url("/images/vector-11.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -2261,7 +2264,7 @@ videoSec {
   width: 10%;
   height: 90px;
   z-index: 2;
-  background: url('../images/Line\ 2.png') repeat;
+  background: url('/images/Line\ 2.png') repeat;
   background-size: cover;
   background-repeat: no-repeat;
   rotate: 180deg;
@@ -2330,7 +2333,7 @@ videoSec {
 
 /* services-6 */
 .services-6 {
-  background-image: url(../images/bg-ser6.png);
+  background-image: url('/images/bg-ser6.png');
   position: relative;
 }
 
@@ -2521,7 +2524,7 @@ section.expert-video {
 }
 
 .services-7 {
-  background-image: url(../images/ok.png);
+  background-image: url('/images/ok.png');
   position: relative;
 }
 
@@ -2548,7 +2551,7 @@ section.expert-video {
   width: 76px;
   height: 6px;
   content: "";
-  background-image: url(../images/line-2.png);
+  background-image: url('/images/line-2.png');
   background-size: cover;
 }
 
@@ -2559,12 +2562,12 @@ section.expert-video {
   width: 76px;
   height: 6px;
   content: "";
-  background-image: url(../images/line-2.png);
+  background-image: url('/images/line-2.png');
   background-size: cover;
 }
 
 .service-1 {
-  background-image: url(../images/service-1.png);
+  background-image: url('/images/service-1.png');
   position: relative;
 }
 
@@ -2675,7 +2678,7 @@ section.brand-section {
   width: 38px;
   height: 102px;
   content: "";
-  background-image: url(../images/line-2.png);
+  background-image: url('/images/line-2.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2687,7 +2690,7 @@ section.brand-section {
   width: 47px;
   height: 17px;
   content: "";
-  background-image: url(../images/line-2.png);
+  background-image: url('/images/line-2.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2699,7 +2702,7 @@ section.brand-section {
   width: 60px;
   height: 6px;
   content: "";
-  background-image: url(../images/line-2.png);
+  background-image: url('/images/line-2.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2741,7 +2744,7 @@ section.brand-section2 {
 }
 
 .influencer {
-  background-image: url(../images/influencer11.png);
+  background-image: url('/images/influencer11.png');
   position: relative;
   padding: 90px 0px !important;
   margin-top: 20px !important;
@@ -2797,7 +2800,7 @@ section.brand-section2 {
 }
 
 .services-9 {
-  background-image: url(../images/lol1.png);
+  background-image: url('/images/lol1.png');
   position: relative;
 }
 
@@ -2980,7 +2983,7 @@ section.trust-foundation {
   width: 248%;
   height: 120px;
   content: "";
-  background-image: url(../images/vector-70.png);
+  background-image: url('/images/vector-70.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3187,7 +3190,7 @@ section.creative .class-one ul li {
   width: 259%;
   height: 88px;
   content: "";
-  background-image: url(../images/vector-70.png);
+  background-image: url('/images/vector-70.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3330,7 +3333,7 @@ section.pro .row {
   width: 50px;
   height: 102px;
   content: "";
-  background-image: url(../images/line-2.png);
+  background-image: url('/images/line-2.png');
   background-size: contain;
   background-repeat: no-repeat;
   rotate: 90deg;
@@ -3345,7 +3348,7 @@ section.pro .row {
   content: "";
   width: 25px;
   height: 270px;
-  background-image: url(../images/line74.png);
+  background-image: url('/images/line74.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3356,7 +3359,7 @@ section.pro .row {
   width: 51px;
   height: 3px;
   content: "";
-  background-image: url(../images/line-2.png);
+  background-image: url('/images/line-2.png');
   background-size: contain;
   background-repeat: no-repeat;
 }

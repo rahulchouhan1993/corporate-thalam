@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /vendor/
 node_modules/
 npm-debug.log
@@ -29,6 +28,4 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
-=======
-node_modules
->>>>>>> 39646d8 (Initial commit from existing project)
+
