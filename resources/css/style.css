@@ -184,7 +184,7 @@ ul.navbar-nav li .nav-link {
   color: #fff !important;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: "GothamRegular";
+  /* sh font-family: "GothamRegular"; */
 }
 
 ul.navbar-nav li.nav-item {
@@ -199,6 +199,11 @@ ul.navbar-nav li .nav-link.active,
 ul.navbar-nav li .nav-link:hover,
 ul.navbar-nav li .nav-link:focus {
   color: #009ed9 !important;
+}
+
+ul.navbar-nav li .nav-link.active{
+  color: #009ed9 !important;
+  font-family: 'GothamBold';
 }
 
 /* Services Section */
@@ -1611,7 +1616,7 @@ ul.navbar-nav li .nav-link:focus {
   color: #ccc;
   padding: 15px 0;
   font-weight: 400;
-  font-family: "GothamRegular";
+  /* sh font-family: "GothamRegular"; */
 }
 
 /* Projects Box */
@@ -1805,7 +1810,7 @@ section.brand-shoot {
     margin-bottom: 50px;
     font-family: "GothamBold";
     letter-spacing: -3px;
-    color: #EBEEF7;
+    /*sh color: #EBEEF7; */
 }
 
 .brand-head p {
