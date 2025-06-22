@@ -19,7 +19,7 @@ export default function Header(){
             </div>
             <div className="whatsappicon">
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=919878456512&text=Hello%20FP%20Team%2C%20I%20would%20like%20to%20discuss%20my%20project%20with%20you.">
-                <img src="/images/whatsappicon.png" alt="img" />
+                <img src="/images/whatsapp.svg" alt="img" />
                 </a>
             </div>
             <header>

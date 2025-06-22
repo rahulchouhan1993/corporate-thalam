@@ -27,7 +27,7 @@ export default function Scripting(){
           </div>
           <div className="col-lg-12">
             <div className="main-btn-ser">
-              <div className="className-one prod-lis">
+              <div className="class-one prod-lis">
                 <ul>
                   <li>Creative Concept Development</li>
                   <li className="line-12 liine12">Storyboarding & Narrative Structuring</li>
@@ -38,10 +38,10 @@ export default function Scripting(){
           </div>
           <div className="col-lg-12">
             <div className="main-btn-ser lef-1">
-              <div className="className-one ">
+              <div className="class-one ">
                 <ul>
                   <li  className="line0001">Brand-Tone Alignment & Revisions</li>
-                  <li>Multilingual Scripting (Tamil, English, Tanglish)</li>
+                  <li className="line-12">Multilingual Scripting (Tamil, English, Tanglish)</li>
                 </ul>
               </div>
             </div>
@@ -53,10 +53,22 @@ export default function Scripting(){
       <div className="container">
         <div className="row">
           <div className="col-lg-9">
-            <div className="brand-photo">
-              <img src="/images/pro-1.png" />
-              <img src="/images/pro-2.png" />
-              <img src="/images/pro-3.png" />
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="brand-photo threephoto">
+                <img className="img-fluid" src="/images/pro-1.png" />
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="brand-photo threephoto">
+                <img className="img-fluid" src="/images/pro-2.png" />
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="brand-photo threephoto">
+                <img className="img-fluid" src="/images/pro-3.png" />
+              </div>
+            </div>
             </div>
           </div>
           <div className="col-lg-3">

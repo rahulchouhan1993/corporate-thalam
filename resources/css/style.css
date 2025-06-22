@@ -180,15 +180,26 @@ section.videoSec {
 
 .whatsappicon {
   position: fixed;
-  top: 660px;
-  right: 20px;
+  bottom: 0px;
+  right: 0;
   z-index: 99;
 }
 
 .callNumber {
   transform: rotate(90deg);
 }
-
+.trust-head.concepthead h1 {
+    margin: 0;
+}
+.trust-head.concepthead p {
+    padding: 0;
+}
+.brand-photo.threephoto {
+    padding: 10px 0;
+}
+.brand-photo.threephoto img {
+    padding: 0;
+}
 .callNumber a {
   background: #009ed9;
   padding: 13px;
@@ -2860,9 +2871,9 @@ section.brand-section2 {
 }
 
 .main-btn-ser .line-12::before {
-  top: 40px;
-  left: -30px;
-  width: 30px;
+    top: 32px;
+    left: -42px;
+    width: 42px;
 }
 
 .brand-section2 .brand-head h1 {
@@ -3079,7 +3090,14 @@ section.trust-foundation {
   padding-bottom: 120px;
   margin: 0;
 }
-
+.our-plans .Plan-head {
+    padding: 0 0 20px;
+}
+.Plan-head h1 {
+    font-family: "GothamBold";
+    color: #01123D;
+    font-size: 40px;
+}
 /* SERVICE-11 */
 .line-001 h5 {
   border: 1px solid;
@@ -3141,44 +3159,73 @@ section.trust-foundation {
 /* service 14*/
 
 .plan-card {
-  background-color: #ebeef7;
-  border-radius: 20px;
-  padding: 74px 40px;
-  position: relative;
+    background-color: #ebeef7;
+    border-radius: 20px;
+    padding: 0;
+    position: relative;
 }
-
+.priceheadtop { padding: 25px 23px; border-bottom: 1px solid rgb(2 0 8 / 30%); }
 .plan-card h3 {
-  font-size: 25px;
-  margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #01123D;
+    font-family: "GothamMedium";
 }
-
+.chnagebgprice .priceheadtop { border-color: rgba(255, 255, 255, .3); }
 .plan-card ul {
   display: flex;
   flex-direction: column;
-  gap: 11px;
+  gap: 5px;
 }
-
+.plan-card ul li {
+    color: #020008B2;
+    font-family: "GothamMedium";
+    font-size: 16px;
+}
+.priceheadbottom {
+    padding: 25px 23px;
+}
 .row .col-lg-4:nth-child(2) .plan-card ul li {
   color: #ffffff9e;
 }
-
+.priceboxbtns {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.priceboxbtns a {
+    width: 50%;
+    text-align: center;
+}
 .plan-card p {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
+    color: #020008B2;
+    font-family: "GothamMedium";
+    font-size: 15px;
 }
 
 .plan-card h2 {
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 80px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #01123D;
+    font-family: "GothamBold";
 }
-
+.chnagebgprice.plan-card h3, .chnagebgprice.plan-card h2 {
+    color: #fff;
+}
+.chnagebgprice.plan-card p {
+    color: #FFFFFFB2;
+}
 .plan-card h5 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #01123D;
+    font-family: "GothamBold";
 }
 
-.plan-card:before {
+/* .plan-card:before {
   content: "";
   position: absolute;
   top: 250px;
@@ -3186,7 +3233,7 @@ section.trust-foundation {
   width: 100%;
   height: 2px;
   background-color: #00000026;
-}
+} */
 
 .plan-card a.first-btn,
 a.first-btn {
@@ -3196,6 +3243,8 @@ a.first-btn {
   padding: 12px 20px;
   border-radius: 30px;
   display: inline-block;
+  font-family: "GothamMedium";
+      font-size: 14px;
 }
 
 .plan-card a.second-btn {
@@ -3203,20 +3252,21 @@ a.first-btn {
   background-color: transparent;
   color: black;
   text-decoration: none;
-  padding: 12px 56px;
+  padding: 12px 20px;
   border-radius: 30px;
   border: 2px solid black;
-  margin-left: 10px;
+      font-family: "GothamMedium";
+    font-size: 14px;
 }
 
 .plan-card ul {
   margin-bottom: 20px;
+    padding: 0;
 }
 
 .row .col-lg-4:nth-child(2) .plan-card {
   background-color: #01123d;
   color: #ffffff;
-  height: 701px;
 }
 
 .row .col-lg-4:nth-child(2) .plan-card a.first-btn {
@@ -3227,7 +3277,13 @@ a.first-btn {
   border-color: white;
   color: white;
 }
-
+.chnagebgprice.plan-card h5 {
+    color: #fff;
+}
+section.pricejoinbox.herobanner-services.influencer.paddi-in.two p {
+    padding: 0;
+    font-size: 16px;
+}
 section.our-plans {
   padding: 100px 0px;
 }
@@ -3310,7 +3366,7 @@ section.creative .class-one ul li {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 
 .class-one li,
@@ -3322,30 +3378,49 @@ section.creative .class-one ul li {
   padding: 16px 22px;
   margin: 10px 0;
   font-size: 16px;
-  color: #000;
+  color: #020008;
   max-width: fit-content;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: relative;
 }
-
+.storytellingsec .space-class p, .storytellingsec .class-two p {
+    font-family: "GothamMedium";
+    color: #01123D;
+}
+.storytellingsec .bottom-btn1.blue-btn {
+    margin: 20px 0 0;
+}
+.storytellingsec .class-two h4 {
+    font-family: "GothamMedium";
+    font-size: 23px;
+}
 .class-one span {
   margin-left: 114px;
   position: relative;
 }
-
+.storytellingsec .class-one li, .storytellingsec .class-one span {
+    font-family: "GothamMedium";
+    color: #01123D;
+    font-size: 15px;
+}
+.storytellingsec .class-one span {
+    margin-left: 88px;
+}
 .class-one span::before {
   position: absolute;
-  top: -13px;
-  left: -104px;
-  width: 259%;
-  height: 88px;
-  content: "";
-  background-image: url('/images/vector-70.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  rotate: 270deg;
+    top: -180px;
+    left: 100%;
+    width: 56px;
+    height: 413px;
+    content: "";
+    background-image: url(/images/slts.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
+.storytellingsec .class-one ul {
+    gap: 25px;
+}
 .Plan-head {
   text-align: center;
   padding-bottom: 30px;
@@ -3494,7 +3569,7 @@ section.creative .class-one ul li {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 9px 72px;
+  padding: 9px 50px;
 }
 
 .lef-1 .class-one ul li {
@@ -3519,7 +3594,7 @@ section.pro .row {
 .line0001::before {
   position: absolute;
   top: -76px;
-  left: 800px;
+  right: -90%;
   width: 50px;
   height: 102px;
   content: "";

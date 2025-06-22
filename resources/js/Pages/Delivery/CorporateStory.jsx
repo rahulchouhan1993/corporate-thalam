@@ -13,16 +13,16 @@ export default function CorporateStory(){
       </div>
     </section>
 
-    <section className="creative">
+    <section className="creative storytellingsec">
       <div className="container">
         <div className="align-items-center row">
           <div className="col-lg-5 col-md-7">
-            <div className="className-one">
+            <div className="class-one">
               <span>Our clients have used CT25-produced stories to:</span>
             </div>
           </div>
           <div className="col-lg-3 col-md-5">
-            <div className="className-one">
+            <div className="class-one">
               <ul>
                 <li>Boost investor confidence</li>
                 <li>Attract top talent</li>
@@ -33,7 +33,7 @@ export default function CorporateStory(){
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="className-one space-className">
+            <div className="class-one space-class">
               <p>At Corporate Thalam 25 (CT25), we believe that every business has a story worth telling — not just
                 about what they do, but why they do it. In today’s digital-first world, storytelling isn’t optional;
                 it’s the bridge between brands and the people they want to reach. And that’s exactly where we come in.
@@ -43,7 +43,7 @@ export default function CorporateStory(){
               </div>
 
             </div>
-            <div className="className-two">
+            <div className="class-two">
               <h4>Let's Tell Your Story-The Right Way</h4>
               <p>Whether you want to narrate your company’s evolution, highlight a new milestone, or connect emotionally
                 with your audience — CT25 is your storytelling partner.
