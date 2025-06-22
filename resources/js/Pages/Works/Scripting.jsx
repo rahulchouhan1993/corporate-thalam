@@ -13,7 +13,7 @@ export default function Scripting(){
         </div>
       </div>
     </section>
-    <section className="trust-foundation">
+    <section className="trust-foundation powerideabox">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

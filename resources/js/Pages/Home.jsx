@@ -193,7 +193,7 @@ export default function Home(){
                 <div className="social-column">
                     <div className="banner">
                         <button className="youtube-button">
-                            <img src="images/corporate.png" alt="Corporate Thalam" />
+                            <img src="images/socialyoutubeimg1.svg" alt="Corporate Thalam" />
                         </button>
                     </div>
                     <div className="tags">
@@ -242,7 +242,7 @@ export default function Home(){
                 <div className="social-column">
                     <div className="banner">
                         <button className="youtube-button">
-                            <img src="images/polictth.png" alt="YouTube" />
+                            <img src="images/socialyoutubeimgn.png" alt="YouTube" />
                         </button>
                     </div>
                     <div className="tags">
@@ -429,14 +429,14 @@ export default function Home(){
                             </div>
                             <div className="flow-connector">
                                 <div className="curveRt">
-                                    <img src="images/curvemain-rigth.png" alt="" />
+                                    <img src="images/Deliverlayer2.svg" alt="" />
                                 </div>
                                 <div className="flow-connector-bx">
                                     <div className="flow-sub-box">Content Writer</div>
                                     <div className="flow-sub-box">Content Writer</div>
                                 </div>
                                 <div className="curveLt">
-                                    <img src="images/curvemain-rigth.png" alt="" />
+                                    <img src="images/Deliverlayer2.svg" alt="" />
                                 </div>
                             </div>
                             <div className="deliverables">Deliverables</div>
@@ -502,7 +502,7 @@ export default function Home(){
             </div>
             <div className="cseStudiesRt">
                 <div className="followIso">
-                    <img src="images/isologo.png" alt="img" />
+                    <img src="images/isoimage.svg" alt="img" />
                     <h2>We follow ISO standards in our production workflow</h2>
                 </div>
             </div>

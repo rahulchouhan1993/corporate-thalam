@@ -1794,15 +1794,15 @@ li.lip {
 }
 
 li.lip::before {
-  position: absolute;
-  top: 23px;
-  left: 100%;
-  content: "";
-  background-image: url('/images/Vector10.png');
-  width: 33%;
-  height: 288%;
-  background-repeat: no-repeat;
-  background-size: cover;
+position: absolute;
+    top: 23px;
+    left: 100%;
+    content: "";
+    background-image: url(/images/matholayer2.svg);
+    width: 82px;
+    height: 143px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 li.lip1 {
@@ -2238,18 +2238,16 @@ section.brand-shoot.b1 .brand-photo {
 }
 
 .lip12::after {
-  position: absolute !important;
-  top: 0px;
-  right: -100px;
-  content: "";
-  background-image: url("../images/vector-11.png");
-  width: 197px;
-  height: 324px;
-  background-image: url("/images/vector-11.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  rotate: 358deg;
+    position: absolute !important;
+    top: 0px;
+    right: -32px;
+    content: "";
+    width: 63px;
+    height: 264px;
+    background-image: url(/images/matholayer.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .lip12 {
@@ -2863,7 +2861,9 @@ section.brand-section2 {
   align-items: center;
   gap: 30px;
 }
-
+.boostbrandto .main-btn-ser {
+    gap: 38px;
+}
 .main-btn-ser .bottom-btn1 a {
   font-size: 18px;
   padding: 18px 15px;
@@ -2871,8 +2871,8 @@ section.brand-section2 {
 }
 
 .main-btn-ser .line-12::before {
-    top: 32px;
-    left: -42px;
+    top: 38px;
+    left: -39px;
     width: 42px;
 }
 
@@ -3624,13 +3624,14 @@ section.pro .row {
   position: absolute;
   top: 40px;
   left: 100%;
-  width: 51px;
-  height: 3px;
+  width: 30px;
+  height: 6px;
   content: "";
-  background-image: url('/images/line-2.png');
-  background-size: contain;
+  background-image: url('/images/Linedotn.svg');
+  background-size: 100%;
   background-repeat: no-repeat;
 }
+.powerideabox .main-btn-ser .line-12::before { top: 32px; left: -42px; }
 .line00011 {
   position: relative;
 }

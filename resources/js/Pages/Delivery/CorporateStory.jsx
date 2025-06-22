@@ -71,28 +71,28 @@ export default function CorporateStory(){
             <div className="stragetic-box-main">
               <div className="strategic-boxes story-boxes-img">
                 <div className="strategic-boxes-img uwu11">
-                  <img src="/images/11.png" />
+                  <img src="/images/Discovery.svg" />
                   </div>
                 <h4>Discovery</h4>
                 <p>We dig deep into your brand’s vision, journey, values, and voice.</p>
               </div>
               <div className="strategic-boxes story-boxes-img">
                 <div className="strategic-boxes-img">
-                  <img src="/images/12.png" />
+                  <img src="/images/Narrative.svg" />
                 </div>
                 <h4>Narrative Building</h4>
                 <p>We craft compelling scripts and story arcs that resonate with your target audience.</p>
               </div>
               <div className="strategic-boxes story-boxes-img">
                 <div className="strategic-boxes-img">
-                  <img src="/images/13.png" />
+                  <img src="/images/Production.svg" />
                 </div>
                 <h4>Production</h4>
                 <p>We craft compelling scripts and story arcs that resonate with your target audience.</p>
               </div>
               <div className="strategic-boxes story-boxes-img">
                 <div className="strategic-boxes-img">
-                  <img src="/images/14.png" />
+                  <img src="/images/Deliveryvid.svg" />
                 </div>
                 <h4>Delivery</h4>
                 <p>Final assets are optimized for platforms like websites, presentations, YouTube, LinkedIn, and more.</p>
