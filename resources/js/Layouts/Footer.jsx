@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 export default function Footer(){
     return (
         <>
@@ -9,13 +10,13 @@ export default function Footer(){
                       <img src="/images/footlogo.png" alt="logo" />
                     </div>
                     <nav className="footer-nav">
-                      <a href="#">Services</a>
-                      <a href="#">About</a>
-                      <a href="#">Delivery Model</a>
-                      <a href="#">Pricing</a>
-                      <a href="#">Works</a>
-                      <a href="#">Team</a>
-                      <a href="#">Case Studies & Principles</a>
+                      <Link href="/#scroll-services">Services</Link>
+                      <Link href="/#scroll-about">About</Link>
+                      <Link href="/#delivery-model-scroll">Delivery Model</Link>
+                      <Link href="/#scroll-pricing">Pricing</Link>
+                      <Link href="/#scroll-work">Works</Link>
+                      <Link href="/#scroll-team">Team</Link>
+                      <Link href="/#scroll-studies">Case Studies & Principles</Link>
                     </nav>
                 </div>
                 <div className="footer-middle">

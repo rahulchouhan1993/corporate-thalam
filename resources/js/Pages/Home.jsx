@@ -34,7 +34,7 @@ export default function Home(){
             <span className="bottomrightlayer"></span>
             <section className="videoSec">
                 <div className="video-bg">
-                <img src="images/Banner-bg-gif.gif" alt="Background GIF" />
+                <img src="images/hq-gif.gif" alt="Background GIF" />
                 </div>
                 <div className="videoCnt">
                 <h1>Best <span>Branding & Video Production</span> Company in South India</h1>
@@ -411,7 +411,7 @@ export default function Home(){
         </section>
 
         <section className="service-model">
-            <div className="container">
+            <div className="container" id="delivery-model-scroll">
                 <div className="service-layout">
                     <div className="servicelayoutBx">
                         <div className="service-header">
@@ -491,11 +491,11 @@ export default function Home(){
                 <div className="caseStudiesCnt">
                     <h2>Our Case Studies | Experiences | Working Principles</h2>
                     <ul>
-                        <li> CT25’s Role in Corporate Storytelling </li>
-                        <li> How CT25 Helped a Startup Launch with High-Impact Brand Videos in Just 7 Days </li>
-                        <li> The CT25 Media Production Model for Consistent Client Satisfaction </li>
-                        <li> How does CT25 ensure client data and media assets remain secure throughout the production process? </li>
-                        <li> CT25 follow ISO standard in our work production workflow </li>
+                        <li><Link href='/delivery-model/corporate-storytelling'> CT25’s Role in Corporate Storytelling</Link> </li>
+                        <li> <Link href='/delivery-model/startup-launch'>How CT25 Helped a Startup Launch with High-Impact Brand Videos in Just 7 Days</Link> </li>
+                        <li> <Link href='/delivery-model/client-satisfaction'>The CT25 Media Production Model for Consistent Client Satisfaction</Link> </li>
+                        <li> <Link href='/delivery-model/production-process'>How does CT25 ensure client data and media assets remain secure throughout the production process?</Link> </li>
+                        <li> <Link href='/delivery-model/production-workflow'>CT25 follow ISO standard in our work production workflow</Link> </li>
                     </ul>
                 </div>
             </div>
@@ -676,7 +676,7 @@ export default function Home(){
                 <p> At CT25, we follow a transparent and structured pricing model to ensure clarity and fairness in every project we take on. Our approach begins by breaking down your project scope — whether it includes posters, videos, or campaign activities — into specific resource requirements. Based on this, we estimate the man-hours needed for each expert role such as content writers, editors, VJs, and digital marketers. </p>
                 <p> Once the estimation is finalized and approved, the hourly rates listed in our pricing matrix are applied. This ensures that clients pay only for the exact effort required, with no hidden costs. Our process not only gives clients complete visibility but also makes us one of the most affordable and reliable media partners in the industry. </p>
                 <div className="pricing-buttons">
-                    <a href="#" className="btn-primary">View Packages</a>
+                    <Link href="/pricing" className="btn-primary">View Packages</Link>
                     <a href="#" className="btn-outline">Contact Us for Quotation</a>
                 </div>
             </div>

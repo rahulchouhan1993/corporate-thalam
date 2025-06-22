@@ -13,4 +13,8 @@ class HomesController extends Controller
     public function aboutUs(){
         return Inertia::render('About');
     }
+
+    public function pricing(){
+        return Inertia::render('Pricing');
+    }
 }

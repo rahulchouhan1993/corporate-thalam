@@ -18,7 +18,7 @@ export default function Header(){
                 </div>
             </div>
             <div className="whatsappicon">
-                <a href="#">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=919878456512&text=Hello%20FP%20Team%2C%20I%20would%20like%20to%20discuss%20my%20project%20with%20you.">
                 <img src="/images/whatsappicon.png" alt="img" />
                 </a>
             </div>
@@ -37,27 +37,27 @@ export default function Header(){
                             <li className="nav-item">
                                 <Link className="nav-link active" href="/">Home</Link>
                             </li>
-                            <li className="nav-item" onClick={() => scrollToSection('scroll-services')}>
-                                <a className="nav-link" href="javascript:void(0);">Services</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" href="/#scroll-services">Services</Link>
                             </li>
-                            <li className="nav-item" onClick={() => scrollToSection('scroll-pricing')}>
-                                <a className="nav-link" href="javascript:void(0);">pricing</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" href="/#scroll-pricing">pricing</Link>
                             </li>
-                            <li className="nav-item" onClick={() => scrollToSection('scroll-work')}>
-                                <a className="nav-link" href="javascript:void(0);">Work</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" href="/#scroll-work">Work</Link>
                             </li>
-                            <li className="nav-item" onClick={() => scrollToSection('scroll-studies')}>
-                                <a className="nav-link" href="javascript:void(0);">case studies</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" href="/#scroll-studies">case studies</Link>
                             </li> 
-                            <li className="nav-item" onClick={() => scrollToSection('scroll-team')}>
-                                <a className="nav-link" href="javascript:void(0);">team</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" href="/#scroll-team">team</Link>
                             </li>
-                            <li className="nav-item" onClick={() => scrollToSection('scroll-about')}>
-                                <a className="nav-link" href="javascript:void(0);">about</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" href="/#scroll-about">about</Link>
                             </li>
-                            <li className="nav-item" onClick={() => scrollToSection('scroll-contact')}>
+                            {/* <li className="nav-item" onClick={() => scrollToSection('scroll-contact')}>
                                 <a className="nav-link" href="javascript:void(0);">contact</a>
-                            </li>
+                            </li> */}
                             </ul>
                         </div>
                     </div>

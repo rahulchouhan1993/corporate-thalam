@@ -1,7 +1,8 @@
 export default function Startup(){
     return (
         <>
-        Startup
+        <br/><br/><br/>
+        Ye page aapko banana h
         </>
     )
 }

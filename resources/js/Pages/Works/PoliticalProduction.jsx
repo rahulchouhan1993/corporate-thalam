@@ -129,9 +129,9 @@ export default function PoliticalProduction(){
                     </li>
                 </ul>
 
-                <div className="viewAll">
+                {/* <div className="viewAll">
                     <a href="#">Load More</a>
-                </div>
+                </div> */}
                 </div>
             </div>
 
