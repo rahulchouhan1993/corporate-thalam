@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 export default function Influencers(){
     return (
     <>
@@ -114,7 +115,7 @@ export default function Influencers(){
         </div>
         <div class="col-lg-12">
     <div class="bottom-btn1 brand-4 blue-btn">
-        <a href="#" class=" btn-sm-typ">Read This</a>
+        <Link href="/are-you-a-influencer" class=" btn-sm-typ">Read This</Link>
     </div>
         </div>
     </div>

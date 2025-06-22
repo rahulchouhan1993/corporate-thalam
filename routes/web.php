@@ -11,3 +11,4 @@ Route::get('/about-us', [HomesController::class, 'aboutUs'])->name('about');
 Route::get('/works/{slug}', [WorksController::class, 'index'])->name('services');
 Route::get('/delivery-model/{slug}', [DeliveryModelsController::class, 'index'])->name('delivery-model');
 Route::get('/pricing', [HomesController::class, 'pricing'])->name('pricing');
+Route::get('/are-you-a-influencer', [ServicesController::class, 'influencerDetails'])->name('influencer-details');

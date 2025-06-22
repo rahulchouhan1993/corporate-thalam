@@ -36,4 +36,9 @@ class ServicesController extends Controller
             return inertia("Services/Training",compact('pageTitle'));
         }
     }
+
+    public function influencerDetails(){
+        $pageTitle = 'Influencer';
+        return inertia("Services/InfluencerDetails",compact('pageTitle'));
+    }
 }
