@@ -1,13 +1,12 @@
 export default function ClientSatisfaction(){
     return (
         <>
-        <section className="herobanner-services services-9">
+        <section className="herobanner-services services-9 servsechead">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="herobanner-head ser-1.0">
-              <h1>Case Study: <span>media</span> 
-                production model
+              <h1>Case Study: <span>media </span> production model
               </h1>
             </div>
           </div>
@@ -29,9 +28,9 @@ export default function ClientSatisfaction(){
           <div className="col-lg-6">
             <div className="main-ser-0014">
             <div className="main-box-ser-14">
-              <div className="content-trust line-001 ser-15">
+              <div className="content-trust line-001 ser-15 ms-0">
               <h5 className="line00011">CLIENT DISCOVERY & STRATEGY</h5>
-              <ul className="space-ul">
+              <ul className="space-ul paddongsm">
                 <li> Brand & Goal Understanding</li>
                 <li>Audience Analysis</li>
                 <li>Messaging Framework</li>
@@ -56,8 +55,8 @@ export default function ClientSatisfaction(){
             </div>
             <div className="main-box-ser-14">
               <div className="content-trust line-001 ser-15">
-              <h5 className="line00011">PERFORMANCE & RETAINER SUPPORT</h5>
-              <ul>
+              <h5 className="line00011 ms-0">PERFORMANCE & RETAINER SUPPORT</h5>
+              <ul className="paddongsm">
                 <li>Content Strategy Deployment</li>
                 <li>Analytics & Reporting</li>
                 <li>Ongoing Campaign Support</li>

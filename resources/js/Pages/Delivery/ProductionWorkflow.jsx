@@ -13,7 +13,7 @@ export default function ProductionWorkflow(){
         </div>
       </div>
     </section>
-    <section className="trust-foundation">
+    <section className="trust-foundation implemetctsec">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

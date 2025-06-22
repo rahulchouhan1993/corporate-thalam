@@ -15,7 +15,7 @@ export default function Editing(){
         <section className="expert-video">
         <div className="container">
             <div className="row">
-            <div className="col-lg-4 col-md-12">
+            <div className="col-lg-5 col-md-12">
                 <div className="expert-video-main ">
                 <div className="video-expert-content para-expert">
                     <h1>Expert Video Editing & Colour Grading Services</h1>
@@ -33,7 +33,7 @@ export default function Editing(){
                 </div>
                 </div>
             </div>
-            <div className="col-lg-4 col-md-12">
+            <div className="col-lg-3 col-md-12">
                 <div className="expert-btn">
                 
                 <div className="bottom-btn1 ">
