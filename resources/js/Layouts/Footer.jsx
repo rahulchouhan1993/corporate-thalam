@@ -7,7 +7,7 @@ export default function Footer(){
               <div className="container">
                 <div className="footHead">
                     <div className="footer-logo">
-                      <img src="/images/footlogo.png" alt="logo" />
+                      <img src="/images/logowork.svg" alt="logo" />
                     </div>
                     <nav className="footer-nav">
                       <Link href="/#scroll-services">Services</Link>

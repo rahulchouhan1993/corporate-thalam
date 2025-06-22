@@ -32,10 +32,11 @@ export default function Home(){
             <span className="bottomlayer"></span>
             <span className="topleftlayer"></span>
             <span className="bottomrightlayer"></span>
-            <section className="videoSec">
-                <div className="video-bg">
+            <section className="videoSec" style={{ backgroundImage:"url(images/hq-gif.gif)"}}>
+                {/* <div className="video-bg">
                 <img src="images/hq-gif.gif" alt="Background GIF" />
-                </div>
+                </div> */}
+                <button type="button" className="btn recordingbtn">recording</button>
                 <div className="videoCnt">
                 <h1>Best <span>Branding & Video Production</span> Company in South India</h1>
                 </div>
@@ -558,7 +559,7 @@ export default function Home(){
               <div className="container">
                   <div className="row">
                     <div className="col-lg-12">
-                        <div className="main-pro-box">
+                        <div className="main-pro-box homepricingrow">
                           <div className="col-lg-2">
                               <div className="pro-ject-box-1">
                                 <div className="project-box-h pr-w">
@@ -792,10 +793,12 @@ export default function Home(){
         </section>
 
         <section className="ourCustomerSays">
-            <h2 className="section-title">WHAT OUR CUSTOMERS SAYS ON <span>GOOGLE REVIEWS</span>
-            </h2>
-            <div className="review-slider">
-                <Reviews/>
+            <div className="container">
+                <h2 className="section-title">WHAT OUR CUSTOMERS SAYS ON <span>GOOGLE REVIEWS</span>
+                </h2>
+                <div className="review-slidersec">
+                    <Reviews/>
+                </div>
             </div>
         </section>
     </>

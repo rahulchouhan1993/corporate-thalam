@@ -67,7 +67,7 @@ export default function DigitalMarketing(){
             </div>
             </div>
         </section>
-        <section className="brand-shoot sec-2-s">
+        <section className="brand-shoot sec-2-s whitbg">
             <div className="container">
             <div className="row">
                 <div className="col-lg-6">

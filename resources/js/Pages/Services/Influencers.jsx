@@ -13,7 +13,7 @@ export default function Influencers(){
     </div>
     </div>
     </section>
-    <section class="brand-section">
+    <section class="brand-section boostbrandsec">
     <div class="container">
     <div class="row">
         <div class="col-lg-12">
@@ -24,26 +24,12 @@ export default function Influencers(){
             audience.</p>
         </div>
         </div>
-        <div class="col-lg-2">
-        <div class="bottom-btn1 brand-1">
-            <a href="#">Brief Collection</a>
-        </div>
-        </div>
-        <div class="col-lg-3">
-        <div class="bottom-btn1 brand-3 line-12 ">
-            <a href="#">Influencer Shortlisting</a>
-        </div>
-        </div>
-        <div class="col-lg-3">
-        <div class="bottom-btn1 line-13 bttn1">
-            <a href="#">Content Collaboration</a>
-        </div>
-        </div>
-        <div class="col-lg-4">
-        <div class="bottom-btn1 brand-4 blue-btn line-14 bttn12">
-            <a href="#">Campaign Launch & Monitoring</a>
-        </div>
-        </div>
+        <ul class="brandBoostrow">
+            <li><a href="#">Brief Collection</a></li>
+            <li><a href="#">Influencer Shortlisting</a></li>
+            <li><a href="#">Content Collaboration</a></li>
+            <li><a href="#">Campaign Launch & Monitoring</a></li>
+        </ul>
     </div>
     </div>
 
@@ -83,7 +69,7 @@ export default function Influencers(){
     </p>
     </div>
     </section>
-    <section class="brand-section2">
+    <section class="brand-section2 boostbrandto">
     <div class="container">
     <div class="row">
     <div class="col-lg-12">
