@@ -8,23 +8,32 @@ class ServicesController extends Controller
 {
     public function index($slug){
         if($slug=='commercial-advertisment-videos'){
-            return inertia("Services/AdvertismentVideo");
+            $pageTitle = 'Advertisment Video';
+            return inertia("Services/AdvertismentVideo",compact('pageTitle'));
         }else if($slug=='videographer-and-crew'){
-            return inertia("Services/Videographer");
+            $pageTitle = 'Videograper & Crew';
+            return inertia("Services/Videographer",compact('pageTitle'));
         }else if($slug=='digital-marketing'){
-            return inertia("Services/DigitalMarketing");
+            $pageTitle = 'Digital Marketing';
+            return inertia("Services/DigitalMarketing",compact('pageTitle'));
         }else if($slug=='socail-media-influencers'){
-            return inertia("Services/Influencers");
+            $pageTitle = 'Social Media Influencers';
+            return inertia("Services/Influencers",compact('pageTitle'));
         }else if($slug=='socail-media-influencers-details'){
-            return inertia("Services/InfluencerDetails");
+            $pageTitle = 'Social Media Influencers';
+            return inertia("Services/InfluencerDetails",compact('pageTitle'));
         }else if($slug=='editing-and-color-grading'){
-            return inertia("Services/Editing");
+            $pageTitle = 'Editing & Color Grading';
+            return inertia("Services/Editing",compact('pageTitle'));
         }else if($slug=='event-managment'){
-            return inertia("Services/EventManagment");
+            $pageTitle = 'Event Managment';
+            return inertia("Services/EventManagment",compact('pageTitle'));
         }else if($slug=='personal-branding'){
-            return inertia("Services/Branding");
+            $pageTitle = 'Personal Branding';
+            return inertia("Services/Branding",compact('pageTitle'));
         }else if($slug=='traning-certification'){
-            return inertia("Services/Training");
+            $pageTitle = 'Training Certification';
+            return inertia("Services/Training",compact('pageTitle'));
         }
     }
 }

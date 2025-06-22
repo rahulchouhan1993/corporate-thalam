@@ -7,14 +7,17 @@ use Illuminate\Http\Request;
 class HomesController extends Controller
 {
     public function index(){
-        return Inertia::render('Home');
+        $pageTitle = 'Home';
+        return Inertia::render('Home',compact('pageTitle'));
     }
 
     public function aboutUs(){
-        return Inertia::render('About');
+        $pageTitle = 'About Us';
+        return Inertia::render('About',compact('pageTitle'));
     }
 
     public function pricing(){
-        return Inertia::render('Pricing');
+        $pageTitle = 'Pricing';
+        return Inertia::render('Pricing',compact('pageTitle'));
     }
 }

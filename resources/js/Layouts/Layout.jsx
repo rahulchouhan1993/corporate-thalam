@@ -9,7 +9,7 @@ export default function Layout({ children }) {
     <main>
       {/* <ErrorBoundary> */}
       <BrowserRouter>
-        <Head title={children.props.pageTitle} />
+        <Head title={`${children.props.pageTitle} | Corporate Thalam`} />
           <Header/>
             <div className="dashboardContainer bg-[#F2F2F2]  pb-[100px]">
               {children}

@@ -8,15 +8,20 @@ class DeliveryModelsController extends Controller
 {
     public function index($slug){
         if($slug=='corporate-storytelling'){
-            return inertia("Delivery/CorporateStory");
+            $pageTitle = 'Corporate Storytelling';
+            return inertia("Delivery/CorporateStory",compact('pageTitle'));
         }else if($slug=='startup-launch'){
-            return inertia("Delivery/Startup");
+            $pageTitle = 'Startup Launch';
+            return inertia("Delivery/Startup",compact('pageTitle'));
         }else if($slug=='client-satisfaction'){
-            return inertia("Delivery/ClientSatisfaction");
+            $pageTitle = 'Client Satisfaction';
+            return inertia("Delivery/ClientSatisfaction",compact('pageTitle'));
         }else if($slug=='production-process'){ 
-            return inertia("Delivery/ProductionProcess");
+            $pageTitle = 'Production Process';
+            return inertia("Delivery/ProductionProcess",compact('pageTitle'));
         }else if($slug=='production-workflow'){
-            return inertia("Delivery/ProductionWorkflow");
+            $pageTitle = 'Production Workflow';
+            return inertia("Delivery/ProductionWorkflow",compact('pageTitle'));
         }
     }
 }

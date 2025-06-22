@@ -8,13 +8,17 @@ class WorksController extends Controller
 {
     public function index($slug){
         if($slug=='media-production-for-corporates'){
-            return inertia("Works/CorporateProduction");
+            $pageTitle = 'Media Production For Corporates';
+            return inertia("Works/CorporateProduction",compact('pageTitle'));
         }else if($slug=='media-production-for-politics'){
-            return inertia("Works/PoliticalProduction");
+            $pageTitle = 'Media Production For Politics';
+            return inertia("Works/PoliticalProduction",compact('pageTitle'));
         }else if($slug=='digital-marketing'){
-            return inertia("Works/DigitalMarketing");
+            $pageTitle = 'Digital Marketing';
+            return inertia("Works/DigitalMarketing",compact('pageTitle'));
         }else if($slug=='scripting'){
-            return inertia("Works/Scripting");
+            $pageTitle = 'Scripting';
+            return inertia("Works/Scripting",compact('pageTitle'));
         }
     }
 }
