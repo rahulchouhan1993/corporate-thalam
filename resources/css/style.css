@@ -190,9 +190,12 @@ section.videoSec {
 }
 .trust-head.concepthead h1 {
     margin: 0;
+    letter-spacing: -2px;
 }
 .trust-head.concepthead p {
     padding: 0;
+        font-family: "GothamMedium";
+    letter-spacing: -1px;
 }
 .brand-photo.threephoto {
     padding: 10px 0;
@@ -2557,12 +2560,20 @@ section.expert-video {
 }
 
 .expert-btn .bottom-btn1 a {
-  padding: 17px 45px;
-  background: #009eda;
-  color: white;
-  border: none;
+    padding: 17px 25px;
+    background: #009eda;
+    color: white;
+    border: none;
+    min-width: 210px;
+    margin-right: 20px;
+    border: 1px solid transparent
 }
-
+.expert-btn .bottom-btn1 a:hover {
+    background: #fff;
+    border-color: #009eda;
+    color: #009eda;
+}
+.expert-btn.watchgrapbbtn::after { width: 85px; height: 10px; }
 .first-expert {
   margin-top: 101px;
 }
@@ -2670,7 +2681,7 @@ section.expert-video {
 }
 
 .marquee-container {
-  width: 130%;
+  width: 100%;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #ffffff26;
@@ -2679,8 +2690,9 @@ section.expert-video {
 
 .marquee-track {
   display: flex;
-  width: fit-content;
-  animation: scroll 20s linear infinite;
+  flex-wrap: wrap;
+ /*  width: fit-content;
+  animation: scroll 20s linear infinite; */
 }
 
 .marquee-track img {
@@ -2698,10 +2710,13 @@ section.expert-video {
     transform: translateX(-50%);
   }
 }
-
+.image-box-marq {
+    padding: 15px;
+        width: 25%
+}
 .image-box-marq img {
   width: 100%;
-  padding: 0px 20px;
+  padding: 0px;
 }
 
 section.image-box-marque {
@@ -2843,7 +2858,6 @@ section.brand-section {
   margin: unset;
 }
 section.image-box-marque { overflow: hidden; }
-.marquee-track .image-box-marq { min-width: 320px; }
 .marquee-track .image-box-marq img {
     margin: 0;
 }
@@ -3187,6 +3201,9 @@ section.trust-foundation {
     padding: 25px 23px;
 }
 .row .col-lg-4:nth-child(2) .plan-card ul li {
+  color: #fff;
+}
+.row .col-lg-4:nth-child(2) .plan-card ul li span {
   color: #ffffff9e;
 }
 .priceboxbtns {
@@ -3243,11 +3260,13 @@ a.first-btn {
   text-decoration: none;
   padding: 12px 20px;
   border-radius: 30px;
+  border: 1px solid transparent;
   display: inline-block;
   font-family: "GothamMedium";
       font-size: 14px;
+      transition: all .4s !important;
 }
-
+.plan-card a.first-btn:hover { background: #fff; color: #01123d; border-color: #01123d; }
 .plan-card a.second-btn {
   color: white;
   background-color: transparent;
@@ -3258,8 +3277,9 @@ a.first-btn {
   border: 2px solid black;
       font-family: "GothamMedium";
     font-size: 14px;
+    transition: all .4s !important;
 }
-
+.plan-card a.second-btn:hover { background: #01123d; color: #ffffff; border-color: #01123d; }
 .plan-card ul {
   margin-bottom: 20px;
     padding: 0;
@@ -3278,6 +3298,14 @@ a.first-btn {
   border-color: white;
   color: white;
 }
+.row .col-lg-4:nth-child(2) .plan-card a.first-btn:hover {
+    background: #fff;
+}
+
+.row .col-lg-4:nth-child(2) .plan-card a.second-btn:hover {
+    background: #fff !important;
+    color: #01123d;
+}
 .chnagebgprice.plan-card h5 {
     color: #fff;
 }
@@ -3285,6 +3313,7 @@ section.pricejoinbox.herobanner-services.influencer.paddi-in.two p {
     padding: 0;
     font-size: 16px;
 }
+section.herobanner-services.influencer.paddi-in.two a:hover { background: #fff; color: #00bfff; }
 section.our-plans {
   padding: 100px 0px;
 }
@@ -3389,7 +3418,7 @@ section.creative .class-one ul li {
     color: #01123D;
 }
 .storytellingsec .bottom-btn1.blue-btn {
-    margin: 20px 0 0;
+    margin: 50px 0 0;
 }
 .storytellingsec .class-two h4 {
     font-family: "GothamMedium";
@@ -3406,6 +3435,8 @@ section.creative .class-one ul li {
 }
 .storytellingsec .class-one span {
     margin-left: 88px;
+        margin-top: -10px;
+    display: block;
 }
 .class-one span::before {
   position: absolute;
@@ -3556,7 +3587,9 @@ section.creative .class-one ul li {
 .class-two {
   padding-top: 90px;
 }
-
+.class-two.tellyourst {
+    padding-top: 60px;
+}
 .prod-lis ul {
   flex-direction: row !important;
 }
@@ -3571,16 +3604,20 @@ section.creative .class-one ul li {
   align-items: center;
   text-align: center;
   padding: 9px 50px;
+      font-family: "GothamMedium";
 }
 
 .lef-1 .class-one ul li {
   width: 55%;
-  padding: 10px 68px;
+  padding: 10px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+      font-family: "GothamMedium";
 }
+.craftingonebox .left-pro h4 { color: #01123D; font-family: "GothamMedium"; font-size: 24px; letter-spacing: -2px; }
+.craftingonebox .left-pro p { color: #01123D; font-family: "GothamMedium"; font-size: 16px; letter-spacing: -1px; }
 section.pro {
   padding: 110px 0px;
   background: #ebeef7;
@@ -3777,6 +3814,7 @@ section.pro .row {
 .ser-510 {
     padding: 0px 0px 60px 0px  !important;
 } 
+.footer { overflow: hidden; }
 
 .startupbanner:before { content: ""; width: 100%; height: 100%; background: radial-gradient(50% 50% at 50% 50%, rgba(2, 0, 8, 0.64) 0%, rgba(2, 0, 8, 0.8) 100%); position: absolute; top: 0; left: 0; }
 .startupbanner h1 { position: relative; z-index: 1; color: #fff; text-align: center; font-size: 60px; font-weight: 700; text-transform: uppercase; font-family: "GothamBold"; max-width: 1100px; margin: 0 auto; line-height: 1em;}
@@ -3816,13 +3854,31 @@ section.pro .row {
 .handlebacklist.rightlistbox li:nth-child(4)::before { content: ''; width: 195px; height: 12px; background: url(/images/linearbig.svg) no-repeat center top; background-size: 100%; position: absolute; left: -45px; top: 40px; }
 .handlebacklist li.bigarrow:before { content: ''; width: 66px; height: 284px; background: url(/images/trangleline.svg) no-repeat center top; background-size: 100%; position: absolute; left: 60px; top: 35px; }
 .handlebacklist.rightlistbox li:last-child { text-align: center; }
-
 .handelbackimg { border-radius: 20px; overflow: hidden; width: 100%; max-width: 270px; }
 .img-fluid { max-width: 100%; }
 .hideline::after { display: none}
-
 .handelbottombox { border-top: 1px solid rgba(2,0,8,0.3); padding: 25px 0 50px; text-align: center; }
 .handelbottombox h4 { text-transform: uppercase; font-size: 18px; color: #020008; font-weight: 500; font-family: "GothamMedium"; letter-spacing: 2px; margin: 0; }
+
+/* startup */
+.focusheading.howhelpdata { max-width: 1150px; }
+.focusheading.howhelpdata p { max-width: 1000px; margin: 0 auto; }
+.manydaysec { width: 100%; background: #01123D; padding: 50px 0; }
+.weekdaylist { margin: 0; padding: 20px 0; display: flex ;  gap: 50px; justify-content: flex-end; }
+.daycount { text-align: center; display: block; font-size: 16px; font-weight: 500; color: #009ED9; font-family: "GothamMedium"; padding: 0 0 5px; }
+.daytagname { border: 1px solid #fff; border-radius: 100px; color: #fff; font-weight: 500; font-family: "GothamMedium"; display: block; padding: 12px 20px; }
+.dayseven .daytagname { background: #fff; color: #01123D; }
+.weekdaylist li { position: relative; padding: 0; }
+.weekdaylist li:before {content: ''; width: 50px; height: 6px; background: url(/images/linewht.svg) no-repeat center top; background-size: 100%; position: absolute; right: -50px; bottom: 22px; }
+.weekdaylist li:last-child::before { display: none; }
+.weekdaylist.weekthree li:last-child:after { content: ''; width: 51px; height: 133px; background: url(/images/linewhtend.svg) no-repeat center top; background-size: 100%; position: absolute; right: -50px; bottom: 22px; }
+.dayweekbtn { text-align: center; padding: 30px 0 0; }
+.btn.lighbluebgbtn { font-family: "GothamMedium"; color: #fff !important; background: #009ED9; font-size: 20px; font-weight: 500; border: 1px solid #009ED9 !important; border-radius: 100px; padding: 10px 10px; min-width: 200px; text-align: center; outline: none; box-shadow: none; }
+.btn.lighbluebgbtn:hover { background: #fff !important; color: #009ED9 !important; }
+.launchlayersec .img-fluid { width: 100%;     margin: -100px 0; }
+
+
+
 
 
 
@@ -3830,4 +3886,5 @@ section.pro .row {
 .handlebacklist li span { font-size: 13px;}
 .handlebacklist.midlistbox { padding-top: 38%; }
 .handlebacklist.rightlistbox { padding-top: 15.1%; }
+.storytellingsec .class-one span { margin-left: 10px; }
 }

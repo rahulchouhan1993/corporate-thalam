@@ -34,7 +34,7 @@ export default function Editing(){
                 </div>
             </div>
             <div className="col-lg-3 col-md-12">
-                <div className="expert-btn">
+                <div className="expert-btn watchgrapbbtn">
                 
                 <div className="bottom-btn1 ">
                     <a href="#">Watch CT25 Do</a>

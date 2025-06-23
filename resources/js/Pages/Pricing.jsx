@@ -54,11 +54,11 @@ export default function Pricing(){
               <div className="priceheadbottom">
                 <h5>WHAT'S INCLUDED:</h5>
                 <ul>
-                  <li>✅ 15 Custom-designed Posters</li>
-                  <li>✅ 5 Short-form Reels/Stories (up to 60 seconds each)</li>
-                  <li>✅ Tailored script and visual concept for each post</li>
-                  <li>✅ Optimized for Instagram, YouTube Shorts & Facebook</li>
-                  <li>✅ Revisions and formatting included</li>
+                  <li>✅ <span>15 Custom-designed Posters</span></li>
+                  <li>✅ <span>5 Short-form Reels/Stories (up to 60 seconds each)</span></li>
+                  <li>✅ <span>Tailored script and visual concept for each post</span></li>
+                  <li>✅ <span>Optimized for Instagram, YouTube Shorts & Facebook</span></li>
+                  <li>✅ <span>Revisions and formatting included</span></li>
                 </ul>
                 <div className="priceboxbtns">
                   <a href="#" className="first-btn">Request a Simple</a>

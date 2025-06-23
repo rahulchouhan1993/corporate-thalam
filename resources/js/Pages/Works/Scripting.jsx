@@ -49,7 +49,7 @@ export default function Scripting(){
         </div>
       </div>
     </section>
-    <section className="pro">
+    <section className="pro craftingonebox">
       <div className="container">
         <div className="row">
           <div className="col-lg-9">

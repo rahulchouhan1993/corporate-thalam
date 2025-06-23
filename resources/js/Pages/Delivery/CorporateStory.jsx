@@ -43,7 +43,7 @@ export default function CorporateStory(){
               </div>
 
             </div>
-            <div className="class-two">
+            <div className="class-two tellyourst">
               <h4>Let's Tell Your Story-The Right Way</h4>
               <p>Whether you want to narrate your company’s evolution, highlight a new milestone, or connect emotionally
                 with your audience — CT25 is your storytelling partner.

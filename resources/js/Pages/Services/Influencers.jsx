@@ -43,7 +43,7 @@ export default function Influencers(){
     </div>
     </div>
     <div class="marquee-container">
-    <div class="marquee-track">
+    <div class="marquee-track slider">
     <div class="image-box-marq">
     <img src="/images/Frame 151.png" alt="s1" />
     </div>
@@ -70,6 +70,7 @@ export default function Influencers(){
     </p>
     </div>
     </section>
+
     <section class="brand-section2 boostbrandto">
     <div class="container">
     <div class="row">
