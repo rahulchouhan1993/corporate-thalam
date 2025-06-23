@@ -3798,18 +3798,28 @@ section.pro .row {
 .btn.whiteborderbtn:hover { background: #fff !important; color: #01123D !important;}
 .handeltopsec { width: 100%; padding: 60px 0 30px; }
 .handeltopsec .startsmheading { max-width: 900px; margin: 0 auto 20px; }
-.startuphandelrow { display: flex ; gap: 50px; justify-content: space-between; }
+.startuphandelrow { display: flex ; gap: 25px; justify-content: space-between; max-width: 1195px; }
 .handlebacklist { margin: 0; padding: 0; list-style: none; }
-.handlebacklist li { padding: 20px 0; }
+.handlebacklist li { padding: 20px 0; position:relative; }
+.handlebacklist li:after { content: ''; width: 12px; height: 45px; background: url(/images/linear.svg) no-repeat center top; background-size: 100%; position: absolute; left: 70px; bottom: -24px; }
+.handlebacklist li:last-child::after { display: none; }
 .handlebacklist li span { display: inline-block; background-color: #fff; border: 1px solid #020008; border-radius: 100px; padding: 12px 20px; margin: 0; font-size: 15px; color: #020008; position: relative; text-align: center; font-family: "GothamMedium"; }
 
+.handlebacklist.midlistbox { padding-top: 37%; }
+.handlebacklist.midlistbox li:first-child:before { content: ''; width: 13px; height: 50px; background: url(/images/linear.svg) no-repeat center top; background-size: 100%; position: absolute; left: -26px; top: 19px; transform: rotate(-90deg); }
 
-.handlebacklist.midlistbox { padding-top: 34%; }
-
-.handlebacklist.rightlistbox { text-align: right; padding-top: 13.5%; }
+.handlebacklist.rightlistbox { text-align: right; padding-top: 14.8%; }
+.handlebacklist.rightlistbox li:after { left: auto; right: 60px; }
+.handlebacklist.rightlistbox li:nth-child(1):after, .handlebacklist.rightlistbox li:nth-child(2):after, .handlebacklist.rightlistbox li:nth-child(3):after { transform: rotate(180deg); bottom: -20px; }
+.handlebacklist.rightlistbox li:nth-child(4)::before { content: ''; width: 13px; height: 50px; background: url(/images/linearbig.svg) no-repeat center top; background-size: 100%; position: absolute; left: -26px; top: 19px; }
+.handlebacklist.rightlistbox li:nth-child(4) span { min-width: 300px; }
+.handlebacklist.rightlistbox li:nth-child(4)::before { content: ''; width: 195px; height: 12px; background: url(/images/linearbig.svg) no-repeat center top; background-size: 100%; position: absolute; left: -45px; top: 40px; }
+.handlebacklist li.bigarrow:before { content: ''; width: 66px; height: 284px; background: url(/images/trangleline.svg) no-repeat center top; background-size: 100%; position: absolute; left: 60px; top: 35px; }
+.handlebacklist.rightlistbox li:last-child { text-align: center; }
 
 .handelbackimg { border-radius: 20px; overflow: hidden; width: 100%; max-width: 270px; }
 .img-fluid { max-width: 100%; }
+.hideline::after { display: none}
 
 .handelbottombox { border-top: 1px solid rgba(2,0,8,0.3); padding: 25px 0 50px; text-align: center; }
 .handelbottombox h4 { text-transform: uppercase; font-size: 18px; color: #020008; font-weight: 500; font-family: "GothamMedium"; letter-spacing: 2px; margin: 0; }

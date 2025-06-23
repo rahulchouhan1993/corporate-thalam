@@ -68,9 +68,9 @@ export default function InfluencerDetails(){
                             <li><span>On Selected Niches</span></li>
                             <li><span>CT25 - Prepare Story Board</span></li>
                             <li><span>CT25 - Writes Content</span></li>
-                            <li><span>CT25 - Manage Shooting with all equipments required</span></li>
+                            <li className="bigarrow"><span>CT25 - Manage Shooting with all equipments required</span></li>
                             <li><span>CT25 - Manage Post Production</span></li>
-                            <li><span>CT25 - Manage Publish & Collab Activity</span></li>
+                            <li className="hideline"><span>CT25 - Manage Publish & Collab Activity</span></li>
                             <li><span>Release Ad Payment</span></li>
                         </ul>
                     </div>
