@@ -1,4 +1,5 @@
 import { Link } from '@inertiajs/react';
+import InfluencerSlider from "../../Component/InfluencerSlider";
 export default function Influencers(){
     return (
     <>
@@ -43,26 +44,7 @@ export default function Influencers(){
     </div>
     </div>
     <div class="marquee-container">
-    <div class="marquee-track slider">
-    <div class="image-box-marq">
-    <img src="/images/Frame 151.png" alt="s1" />
-    </div>
-    <div class="image-box-marq">
-    <img src="/images/Frame 156.png" alt="s2" />
-    </div>
-    <div class="image-box-marq">
-    <img src="/images/Frame 158.png" alt="s3" />
-    </div>
-    <div class="image-box-marq">
-    <img src="/images/Frame 159.png" alt="s4" />
-    </div>
-    <div class="image-box-marq">
-    <img src="/images/Frame 151.png" alt="s1" />
-    </div>
-    <div class="image-box-marq">
-    <img src="/images/Frame 156.png" alt="s2" />
-    </div>
-    </div>
+    <InfluencerSlider />
     </div>
     <div class="stragetic-box-bottom marque-p">
     <p>
