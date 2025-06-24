@@ -14,7 +14,7 @@ export default function InfluencerDetails(){
                     <p>Unlock hassle-free, paid brand collaborations without worrying about Travel, ad bookings, Commercials or backend stress.</p>
                 </div>
                 <div className="focusdatarow">
-                    <ul className="focusdatalist">
+                    <ul className="focusdatalist firstrowlist">
                         <li>Brand Deals Made Easy</li>
                         <li>No Negotiation Stress</li>
                         <li>Privacy & Security</li>

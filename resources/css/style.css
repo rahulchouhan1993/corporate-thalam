@@ -3815,7 +3815,11 @@ section.pro .row {
     padding: 0px 0px 60px 0px  !important;
 } 
 .footer { overflow: hidden; }
-
+.marquee-container.reviewslierow { padding: 0; }
+.reviewslierow .review-card { padding: 0; overflow: hidden; min-height: auto; background: transparent; border-radius: 0; } 
+.reviewslierow .review-card img { width: 100%; height: 25vw; border-radius: 0; object-fit: cover; border-radius: 30px; margin: 0 0 15px; } 
+.reviewslierow .review-card p { font-size: 24px; color: #EBEEF7; font-weight: 500; margin: 0; font-family: "GothamMedium"; }
+/*  */
 .startupbanner:before { content: ""; width: 100%; height: 100%; background: radial-gradient(50% 50% at 50% 50%, rgba(2, 0, 8, 0.64) 0%, rgba(2, 0, 8, 0.8) 100%); position: absolute; top: 0; left: 0; }
 .startupbanner h1 { position: relative; z-index: 1; color: #fff; text-align: center; font-size: 60px; font-weight: 700; text-transform: uppercase; font-family: "GothamBold"; max-width: 1100px; margin: 0 auto; line-height: 1em;}
 .startupbanner h1 span { color: #009ED9; }
@@ -3827,8 +3831,8 @@ section.pro .row {
 .focusheading p { color: #413D4D; font-size: 22px; font-weight: 500; font-family: "GothamMedium"; margin: 0 0 15px; letter-spacing: -1px; line-height: 1.2em; } 
 .focusdatalist { margin: 0; padding: 0; display: flex ; gap: 40px; justify-content: center;  position: relative; }
 .focusdatalist:first-child:after { content: ''; position: absolute; bottom: -27px; right: 80px; width: 5px; height: 54px; background-image: url(/images/linest.svg); background-size: 100%; background-repeat: no-repeat; }
-.focusdatalist li { background-color: #fff; border: 1px solid #020008; border-radius: 100px; padding: 15px 30px; margin: 25px 0; font-size: 18px; color: #020008; position: relative; text-align: center; font-family: "GothamMedium"; width: 25%;}
-.focusdatalist li:not(:last-child):after { content: ''; position: absolute; top: 25px; left: 100%; width: 42px; height: 6px; background-image: url(/images/dotLine.svg); background-size: 100%; background-repeat: no-repeat; }
+.focusdatalist li { background-color: #fff; border: 1px solid #020008; border-radius: 100px; padding: 15px 30px; margin: 25px 0; font-size: 18px; color: #020008; position: relative; text-align: center; font-family: "GothamMedium"; width: 25%; display: flex ; align-items: center; justify-content: center;}
+.focusdatalist li:not(:last-child):after { content: ''; position: absolute; top: 50%; transform: translateY(-50%); left: 100%; width: 42px; height: 6px; background-image: url(/images/dotLine.svg); background-size: 100%; background-repeat: no-repeat; }
 .focusdatarow .focusdatalist:last-child { justify-content: flex-end; }
 .watherstartup { width: 100%; background: #01123D; padding: 80px 0; text-align: center; }
 .watherstartup .startsmheading { color: #fff; margin: 0 auto 30px; max-width: 1200px; } 
@@ -3841,7 +3845,7 @@ section.pro .row {
 .handlebacklist li { padding: 20px 0; position:relative; }
 .handlebacklist li:after { content: ''; width: 12px; height: 45px; background: url(/images/linear.svg) no-repeat center top; background-size: 100%; position: absolute; left: 70px; bottom: -24px; }
 .handlebacklist li:last-child::after { display: none; }
-.handlebacklist li span { display: inline-block; background-color: #fff; border: 1px solid #020008; border-radius: 100px; padding: 12px 20px; margin: 0; font-size: 15px; color: #020008; position: relative; text-align: center; font-family: "GothamMedium"; }
+.handlebacklist li span { display: inline-block; background-color: #fff; border: 1px solid #020008; border-radius: 100px; padding: 12px 20px; margin: 0; font-size: 15px; color: #020008; position: relative; text-align: center; font-family: "GothamMedium"; z-index: 2;}
 
 .handlebacklist.midlistbox { padding-top: 37%; }
 .handlebacklist.midlistbox li:first-child:before { content: ''; width: 13px; height: 50px; background: url(/images/linear.svg) no-repeat center top; background-size: 100%; position: absolute; left: -26px; top: 19px; transform: rotate(-90deg); }
@@ -3866,11 +3870,11 @@ section.pro .row {
 .manydaysec { width: 100%; background: #01123D; padding: 50px 0; }
 .weekdaylist { margin: 0; padding: 20px 0; display: flex ;  gap: 50px; justify-content: flex-end; }
 .daycount { text-align: center; display: block; font-size: 16px; font-weight: 500; color: #009ED9; font-family: "GothamMedium"; padding: 0 0 5px; }
-.daytagname { border: 1px solid #fff; border-radius: 100px; color: #fff; font-weight: 500; font-family: "GothamMedium"; display: block; padding: 12px 20px; }
+.daytagname { border: 1px solid #fff; border-radius: 100px; color: #fff; font-weight: 500; font-family: "GothamMedium"; display: block; padding: 12px 20px; position: relative;}
 .dayseven .daytagname { background: #fff; color: #01123D; }
 .weekdaylist li { position: relative; padding: 0; }
-.weekdaylist li:before {content: ''; width: 50px; height: 6px; background: url(/images/linewht.svg) no-repeat center top; background-size: 100%; position: absolute; right: -50px; bottom: 22px; }
-.weekdaylist li:last-child::before { display: none; }
+.daytagname:before {content: ''; width: 50px; height: 6px; background: url(/images/linewht.svg) no-repeat center top; background-size: 100%; position: absolute; right: -50px; top: 50%; transform: translateY(-50%);}
+.weekdaylist li:last-child .daytagname:before { display: none; }
 .weekdaylist.weekthree li:last-child:after { content: ''; width: 51px; height: 133px; background: url(/images/linewhtend.svg) no-repeat center top; background-size: 100%; position: absolute; right: -50px; bottom: 22px; }
 .dayweekbtn { text-align: center; padding: 30px 0 0; }
 .btn.lighbluebgbtn { font-family: "GothamMedium"; color: #fff !important; background: #009ED9; font-size: 20px; font-weight: 500; border: 1px solid #009ED9 !important; border-radius: 100px; padding: 10px 10px; min-width: 200px; text-align: center; outline: none; box-shadow: none; }
@@ -3884,7 +3888,92 @@ section.pro .row {
 
 @media (max-width: 1399px) {
 .handlebacklist li span { font-size: 13px;}
-.handlebacklist.midlistbox { padding-top: 38%; }
+.handlebacklist.midlistbox { padding-top: 38%; padding-right: 50px; }
 .handlebacklist.rightlistbox { padding-top: 15.1%; }
 .storytellingsec .class-one span { margin-left: 10px; }
+.handlebacklist.rightlistbox li:nth-child(4)::before { left: -100px; }
+
+}
+
+
+@media (max-width: 1299px) {
+.daytagname { font-size: 13px; padding: 15px 15px; }
+.weekdaylist { padding-right: 30px; }
+
+
+}
+
+
+@media (max-width: 1199px) {
+.handlebacklist.midlistbox { padding-right: 0px; padding-top: 44%; }
+.startuphandelrow { gap: 50px;}
+.handlebacklist li span { font-size: 11px; padding: 12px 14px; }
+.handlebacklist.rightlistbox { padding-top: 17.5%; }
+.handlebacklist.rightlistbox li:nth-child(4) span { min-width: 250px; }
+.handlebacklist.rightlistbox li:nth-child(4)::before { left: -130px; }
+.handlebacklist li.bigarrow:before { left: 23px;}
+
+}
+
+@media (max-width: 991px) {
+header .navbar-toggler { background: #fff; }
+div#navbarSupportedContent { position: absolute; top: 100%; width: 100%; background: #000; padding: 10px 20px; }
+section.herobanner-services { padding: 150px 0px 100px; }
+.startupbanner h1 { font-size: 38px; }
+.startsmheading { font-size: 24px; }
+.focusheading p { font-size: 17px;}
+.launchlayersec .img-fluid { margin: -50px 0; }
+.weekdaylist { flex-wrap: wrap; padding: 20px 0; }
+.weekdaylist li { width: 100%; text-align: center; }
+.weekdaylist li { width: 100%; text-align: center; display: flex ; align-items: center; gap: 20px; justify-content: center; }
+.daytagname { min-width: 270px; }
+.daytagname:before { transform: translateX(-50%) rotate(90deg); left: 50%; top: 72px; }
+.weekdaylist.weekthree li:last-child:after { display: none;}
+.weekdaylist.weekthree li:nth-child(1) { order: 3; } 
+.weekdaylist.weekthree li:nth-child(2) { order: 2; } 
+.weekdaylist.weekthree li:nth-child(3) { order: 1; }
+.daytagname:before { transform: translateX(-50%) rotate(90deg); left: 50%; top: 72px; }
+.weekdaylist.weekthree li:nth-child(1) .daytagname:before { display: none; }
+.weekdaylist li:last-child .daytagname::before, .weekdaylist.weekthree li:nth-child(3) .daytagname:before { display: block; }
+.dayweekbtn { padding-left: 50px; }
+.launchlayersec .img-fluid { margin: -15px 0 -50px; }
+.focusdatalist { flex-wrap: wrap; padding: 20px 0; }
+.focusdatalist li { width: 100%; margin: 0; font-size: 15px; }
+.focusonlysec .focusheading p { margin: 0; }
+.focusdatalist li:not(:last-child):after { top: 70px; left: 50%; transform: translateX(-50%) rotate(90deg); }
+.focusdatalist:first-child:after { display: none;}
+.focusdatalist.firstrowlist li:after { content: ''; top: 70px; left: 50%; transform: translateX(-50%) rotate(90deg); position: absolute; width: 42px; height: 6px; background-image: url(/images/dotLine.svg); background-size: 100%; background-repeat: no-repeat; }
+.focusonlysec, .watherstartup { padding: 40px 0;}
+.handlebacklist.midlistbox { padding-top: 64%; }
+.startuphandelrow { gap: 45px; }
+.handlebacklist.rightlistbox { padding-top: 27%; }
+.handlebacklist.rightlistbox li:nth-child(4) span { min-width: 190px; }
+.handlebacklist.rightlistbox li:nth-child(4)::before { left: -155px; }
+.handlebacklist li.bigarrow:before { left: 4px; top: 65px; width: 60px; height: 260px; }
+.handlebacklist li.hideline span { max-width: 200px; }
+
+}
+
+
+@media (max-width: 767px) {
+.weekdaylist li { gap: 10px;}
+.btn.lighbluebgbtn { font-size: 16px; }
+.focusonlysec{ padding: 40px 0; }
+.startupbanner h1 { font-size: 28px; }
+.startsmheading { font-size: 20px; letter-spacing: -1px; }
+.manydaysec { padding: 25px 0 50px; }
+.handlebacklist { margin: 0; padding: 0; list-style: none; width: 100%; }
+.startuphandelrow { flex-wrap: wrap; text-align: center; gap: 0; }
+.startuphandelrow li { width: 100%; }
+.startuphandelrow li span { width: 100%; max-width: 100% !important; }
+.handlebacklist li:after { left: 50%; transform: translateX(-50%); display: block !important;}
+.handelbackimg { margin: 0 auto;}
+.handlebacklist.midlistbox { padding-top: 0; }
+.handlebacklist.midlistbox li:first-child:before, .handlebacklist.rightlistbox li:nth-child(4)::before, .handlebacklist li.bigarrow:before { display: none;}
+.handlebacklist.rightlistbox { padding-top: 0; }
+.handlebacklist.rightlistbox li:nth-child(1):after, .handlebacklist.rightlistbox li:nth-child(2):after, .handlebacklist.rightlistbox li:nth-child(3):after, .handlebacklist.rightlistbox li:after { transform: translateX(-50%); bottom: auto; left: 50%; right: auto; }
+.handlebacklist.rightlistbox li:last-child:after { display: none !important;}
+.handeltopsec .startsmheading { max-width: 100%; margin: 0; }
+
+
 }

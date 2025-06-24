@@ -43,7 +43,7 @@ export default function Influencers(){
     <h1>We match your brand with influencers based on <span>Niches</span></h1>
     </div>
     </div>
-    <div class="marquee-container">
+    <div class="marquee-container reviewslierow">
     <InfluencerSlider />
     </div>
     <div class="stragetic-box-bottom marque-p">
