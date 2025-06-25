@@ -13,7 +13,7 @@ export default function EventManagment(){
         </div>
       </div>
     </section>
-    <section className="brand-shoot service-4 ser-51">
+    <section className="brand-shoot service-4 ser-51 leaveleagacysec">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

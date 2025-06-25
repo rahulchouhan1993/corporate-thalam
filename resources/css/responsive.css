@@ -354,7 +354,7 @@
   }
 
   .video-expert-content p {
-    width: 75% !important;
+    width: 100% !important;
   }
 
   .expert-content-bottom h1 {
@@ -450,9 +450,9 @@
   }
 
   .expert-content-bottom .bottom-btn1 {
-    margin: -31px 0px;
+    margin:  0px;
     justify-content: left !important;
-    width: 75%;
+    width: 100%;
   }
 
   .crew-left {
@@ -472,6 +472,7 @@
     display: flex;
     align-items: center;
     padding: unset;
+    padding: 15px 0;
   }
 
   .ser-4 .brand-photo img {
@@ -891,9 +892,9 @@
   }
 
   .stragetic-main-left {
-    padding: 57px 40px;
+    padding: 30px 40px;
   }
-
+.stragetic-box-left-2 img { width: 62px; height: 62px; }
   .li-2::after {
     width: 290px;
     top: -20px;
@@ -952,16 +953,20 @@
 
   .prod-lis ul {
     gap: 5px;
+    flex-wrap: wrap;
   }
 
   .lef-1 .class-one ul li {
     padding: 15px 8px;
     width: 100% !important;
     font-size: 12px;
+    max-width: 100%;
   }
 
   .lef-1 .class-one ul {
-    padding: 10px 0px 0px 193px;
+            padding: 0;
+        flex-wrap: wrap;
+        gap: 22px 0;
   }
 
   .pro .brand-photo {
@@ -1578,11 +1583,11 @@
   }
 
   .li-2::after {
-    width: 290px;
+    width: 280px;
     /* From 768px */
-    top: -20px;
+    top: -24px;
     /* From 768px */
-    left: -40px;
+    left: -45px;
     /* From 768px */
   }
 
@@ -1591,7 +1596,7 @@
     /* From 768px */
     top: 91px;
     /* From 768px */
-    left: 40px;
+    left: -35px;
     /* From 768px */
   }
 
@@ -1925,7 +1930,7 @@
   }
 
   .video-expert-content p {
-    width: 79% !important;
+    width: 100% !important;
   }
 
   .expert-content-bottom .bottom-btn1 {

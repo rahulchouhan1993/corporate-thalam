@@ -1,7 +1,7 @@
 export default function AdvertismentVideo(){
     return (
     <>
-    <section className="herobanner-services service-1">
+    <section className="herobanner-services service-1 adverbanner">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

@@ -54,17 +54,17 @@ export default function Scripting(){
         <div className="row">
           <div className="col-lg-9">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4">
               <div className="brand-photo threephoto">
                 <img className="img-fluid" src="/images/pro-1.png" />
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4">
               <div className="brand-photo threephoto">
                 <img className="img-fluid" src="/images/pro-2.png" />
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4">
               <div className="brand-photo threephoto">
                 <img className="img-fluid" src="/images/pro-3.png" />
               </div>

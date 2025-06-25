@@ -12,7 +12,7 @@ export default function Branding(){
             </div>
             </div>
         </section>
-        <section className="brand-shoot b1">
+        <section className="brand-shoot b1 persbrandimg">
             <div className="container">
             <div className="row">
                 <div className="col-lg-12">
@@ -41,10 +41,10 @@ export default function Branding(){
             </div>
             </div>
         </section>
-        <section className="strategic-sec box-left">
+        <section className="strategic-sec box-left brandsocialsec">
             <div className="container">
             <div className="row">
-                <div className="col-lg-8 col-md-8 col-12">
+                <div className="col-xl-8 col-lg-7 col-md-7 col-12">
                 <div className="brand-head nin-tq">
                     <h1>PROFESSIONAL <span>VISUAL</span> BRANDING</h1>
                     <p>
@@ -57,7 +57,7 @@ export default function Branding(){
                     </p>
                 </div>
                 </div>
-                <div className="col-lg-4 col-md-4 col-12">
+                <div className="col-xl-4 col-lg-5 col-md-5 col-12">
                 <div className="stragetic-main-left">
                 <div className="stragetic-box-left d-flex">
                 <div className="stragetic-box-left-2 li-1">
