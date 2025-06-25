@@ -3879,7 +3879,7 @@ section.pro .row {
 .dayweekbtn { text-align: center; padding: 30px 0 0; }
 .btn.lighbluebgbtn { font-family: "GothamMedium"; color: #fff !important; background: #009ED9; font-size: 20px; font-weight: 500; border: 1px solid #009ED9 !important; border-radius: 100px; padding: 10px 10px; min-width: 200px; text-align: center; outline: none; box-shadow: none; }
 .btn.lighbluebgbtn:hover { background: #fff !important; color: #009ED9 !important; }
-.launchlayersec .img-fluid { width: 100%;  margin: -100px 0; }
+.launchlayersec .img-fluid { width: 100%; }
 
 /*  */
 .herobanner-services.service-1.adverbanner .herobanner-head h1 { width: 100%; max-width: 800px; }
@@ -3910,6 +3910,7 @@ section.pricing-methodolgies { overflow: hidden; }
 .main-btn-ser .bottom-btn1 a { font-size: 15px; min-width: 200px; }
 .card1 h3 { font-size: 50px; }
 .serviceListBx ul li a span { font-size: 18px; }
+.plan-card a.first-btn, a.first-btn { padding: 12px 10px; }
 
 }
 
@@ -3948,7 +3949,8 @@ li.lid::after { top: 60px;}
 .homepricingrow .project-box-h.projec-req2 li { left: -120px; }
 .pricing-card { width: 30%;}
 .strategic-boxes-img { height: 180px; width: 180px; }
-.herobanner-head h1 {     width: 75%; }
+.herobanner-head h1 {     width: 100%; }
+.brand-head.securingbox { margin: 0; padding: 50px 15px; }
 body .brand-head h1 { margin: 0 0 20px; }
 .brand-head { margin-top: 0; }
 .expert-btn .bottom-btn1 a { position: relative; z-index: 3;}
@@ -3969,6 +3971,8 @@ body .brand-head h1 { margin: 0 0 20px; }
 .row.storychartleft .col-lg-3.col-md-5 { width: 31%; padding-left: 40px; }
 .storytellingsec .class-one ul { gap: 10px; }
 .class-one span::before { top: -170px;}
+.priceboxbtns { display: block; text-align: center; }
+.plan-card a.first-btn, .plan-card a.second-btn { padding: 12px 10px; width: 100% !important; display: block; margin: 10px 0;}
 
 }
 
@@ -3979,7 +3983,6 @@ section.herobanner-services { padding: 150px 0px 100px; }
 .startupbanner h1 { font-size: 38px; }
 .startsmheading { font-size: 24px; }
 .focusheading p { font-size: 17px;}
-.launchlayersec .img-fluid { margin: -50px 0; }
 .weekdaylist { flex-wrap: wrap; padding: 20px 0; }
 .weekdaylist li { width: 100%; text-align: center; }
 .weekdaylist li { width: 100%; text-align: center; display: flex ; align-items: center; gap: 20px; justify-content: center; }
@@ -3993,7 +3996,6 @@ section.herobanner-services { padding: 150px 0px 100px; }
 .weekdaylist.weekthree li:nth-child(1) .daytagname:before { display: none; }
 .weekdaylist li:last-child .daytagname::before, .weekdaylist.weekthree li:nth-child(3) .daytagname:before { display: block; }
 .dayweekbtn { padding-left: 50px; }
-.launchlayersec .img-fluid { margin: -15px 0 -50px; }
 .focusdatalist { flex-wrap: wrap; padding: 20px 0; }
 .focusdatalist li { width: 100%; margin: 0; font-size: 15px; }
 .focusonlysec .focusheading p { margin: 0; }
@@ -4013,7 +4015,8 @@ section.herobanner-services { padding: 150px 0px 100px; }
 .ourWorkTabs .nav-tabs { padding: 7px;  overflow: hidden;}
 .ourWorkTabs .nav-tabs li .nav-link { font-size: 15px; line-height: 20px; padding: 10px 10px; }
 .flow-section .flow-connector { width: 100%; height: auto; max-width: 260px; }
-
+.trust-foundation.implemetctsec h1 { padding: 0 0 20px; }
+.trust-foundation.implemetctsec .line-001 h5 { padding: 10px 10px; margin-bottom: 15px; font-size: 17px; }
 .flow-box { width: 170px; font-size: 15px; }
 .flow-sub-box, .deliverables { font-size: 15px; width: 170px; }
 .flow-connector { width: 250px;}
@@ -4079,6 +4082,9 @@ section.creative .class-one ul li { width: 100%; max-width: 100%; text-align: ce
 .highlights .cards-main { align-items: flex-start; }
 .powerideabox .prod-lis ul { flex-wrap: wrap; gap: 0; }
 .stragetic-box-main { align-items: flex-start; }
+.strategic-sec .cseStudiesRt { padding: 20px 0;}
+section.our-plans { padding: 50px 0px; }
+.our-plans .plan-card { margin: 13px 0; display: inline-block; width: 100%; }
 
 }
 
@@ -4135,6 +4141,11 @@ section.creative-crew { padding: 40px 0px; }
 .brandsocialsec .col-xl-4.col-lg-5.col-md-5.col-12 { padding: 0; }
 .boostbrandto .bottom-btn1 { margin-top: 15px; margin-bottom: 30px; }
 .serviceListBx ul li a span { padding: 0 0 15px !important; margin: 0; }
+.isosecuringbox .col-lg-4.col-md-4.col-12.px-md-0 { padding: 0; }
+.isosecuringbox .brand-head.securingbox { margin: 0; padding: 20px 0 40px; }
+section.trust-foundation { padding: 40px 0px; }
+.plan-card h2 { font-size: 18px; }
+.content-trust h2 { font-size: 20px; }
 
 }
 

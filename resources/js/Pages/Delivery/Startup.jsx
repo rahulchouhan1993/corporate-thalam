@@ -16,7 +16,7 @@ export default function Startup(){
                 </div>
             </div>
             <div className="launchlayersec">
-                <img className="img-fluid" src="/images/startuplayes.svg" alt="Image" />
+                <img className="img-fluid" src="/images/modalgraph.svg" alt="Image" />
             </div>
         </section>
 

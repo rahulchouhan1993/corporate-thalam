@@ -34,7 +34,7 @@ export default function ProductionWorkflow(){
             </div>
           </div>
           <div className="col-lg-3">
-            <div className="content-trust line-001">
+            <div className="content-trust line-001 embracingbox">
               <h5>150 14001: Embracing Environmental Responsibility</h5>
               <p>Environmental responsibility is a growing concen in the Media industry 150 14001 provides a framework
                 for Environmental Management Systems (EM),
@@ -69,7 +69,7 @@ export default function ProductionWorkflow(){
         </div>
       </div>
     </section>
-    <section className="strategic-sec box-left  servic-11-o">
+    <section className="strategic-sec box-left  servic-11-o isosecuringbox">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-8 col-md-8 col-12">
