@@ -4158,6 +4158,7 @@ section.trust-foundation { padding: 40px 0px; }
 .Consistentdata .content-trust { width: 100%; }
 .Consistentdata ul { padding: 0 0 0 20px !important; margin: 0; }
 .Consistentdata .ser-15 h5 { margin: 0 0 13px !important;}
+.homepricingrow li.lid:after { left: 50%; transform: translateX(-50%) rotate(90deg); }
 
 }
 
