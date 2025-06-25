@@ -39,15 +39,7 @@ const InfluencerSlider = () => {
     {
       img: "/images/Frame 159.png",
       title: "Real Estate"
-    },
-    {
-      img: "images/Frame 151.png",
-      title: "Fashion"
-    },
-    {
-      img: "/images/Frame 156.png",
-      title: "Education"
-    },
+    }
   ];
 
   return (
