@@ -4011,8 +4011,8 @@ section.herobanner-services { padding: 150px 0px 100px; }
 .about-item h1.number { font-size: 60px; }
 .ourWorkTabs .nav-tabs { padding: 7px;  overflow: hidden;}
 .ourWorkTabs .nav-tabs li .nav-link { font-size: 15px; line-height: 20px; padding: 10px 10px; }
-.flow-section .flow-connector { width: 100%; height: auto; }
-.flow-connector-bx { flex-direction: initial; }
+.flow-section .flow-connector { width: 100%; height: auto; max-width: 260px; }
+
 .flow-box { width: 170px; font-size: 15px; }
 .flow-sub-box, .deliverables { font-size: 15px; width: 170px; }
 .flow-connector { width: 250px;}
@@ -4052,7 +4052,11 @@ ul.brandBoostrow li { width: 100%; }
 .class-one span::before { display: none;}
 .row.storychartleft .col-lg-3.col-md-5 { width: 100%; padding-left: 15px;  padding-top: 15px; }
 section.creative .class-one ul li { width: 100%; max-width: 100%; text-align: center; font-size: 14px; }
-
+.serviceBxFrst, .serviceBxLast { width: 30%; }
+.serviceBxMid { width: 40%; }
+.serviceBxMid .service-box { width: 100%; }
+.member-card { width: 31%;}
+.member-card p { font-size: 20px; }
 }
 
 
@@ -4094,6 +4098,9 @@ section.creative .class-one ul li { width: 100%; max-width: 100%; text-align: ce
 .storytellingsec .class-one span { padding: 10px 15px; font-size: 14px; }
 .storytellingsec .class-one ul { margin: 0; }
 section.creative .storychartleft .class-one ul li { padding: 10px 15px; font-size: 14px; margin: 6px 0; }
+body .flow-connector-bx { flex-direction: initial; }
+.flow-section .flow-connector { max-width: 100%; }
+.flow-section .flow-box { width: 100%; }
 
 }
 
