@@ -3883,7 +3883,8 @@ section.pro .row {
 
 /*  */
 .herobanner-services.service-1.adverbanner .herobanner-head h1 { width: 100%; max-width: 800px; }
-
+.creative.storytellingsec { overflow: hidden; }
+.strategic-sec.ser-13-0 { overflow: hidden; }
 
 
 
@@ -3963,6 +3964,10 @@ body .brand-head h1 { margin: 0 0 20px; }
 .trust-foundation.powerideabox { overflow: hidden; }
 .powerideabox .ser-0140 { padding: 0; }
 .pro.craftingonebox { overflow: hidden; padding: 50px 0px; }
+.row.storychartleft .col-lg-5.col-md-7 { width: 35%; }
+.row.storychartleft .col-lg-3.col-md-5 { width: 31%; padding-left: 40px; }
+.storytellingsec .class-one ul { gap: 10px; }
+.class-one span::before { top: -170px;}
 
 }
 
@@ -4042,7 +4047,11 @@ ul.brandBoostrow li { width: 100%; }
 .powerideabox .prod-lis ul li { max-width: 100%; text-align: center; justify-content: center; padding: 15px 15px;         margin: 20px 0; }
 .powerideabox .main-btn-ser .line-12::before { top: -28px; left: 50%; background-image: url(/images/dotLine.svg); transform: translateX(-50%) rotate(90deg); bottom: auto; }
 .pro.craftingonebox .left-pro { position: initial; width: 100%; }
-
+.row.storychartleft .col-lg-5.col-md-7 { width: 100%; }
+.storytellingsec .class-one span { margin: 0; width: 100%; max-width: 100%; text-align: center; }
+.class-one span::before { display: none;}
+.row.storychartleft .col-lg-3.col-md-5 { width: 100%; padding-left: 15px;  padding-top: 15px; }
+section.creative .class-one ul li { width: 100%; max-width: 100%; text-align: center; font-size: 14px; }
 
 }
 
@@ -4080,9 +4089,13 @@ ul.brandBoostrow li { width: 100%; }
 .powerideabox .prod-lis ul li { margin: 10px 0; }
 .powerideabox .lef-1 .class-one ul { margin: 0 !important; }
 .powerideabox .lef-1 .class-one ul li, .powerideabox .class-one.prod-lis .line-12, .powerideabox .class-one.prod-lis .liine12 { padding: 15px 20px !important; }
+.storytellingsec .class-one span { padding: 10px 15px; font-size: 14px; }
+.storytellingsec .class-one ul { margin: 0; }
+section.creative .storychartleft .class-one ul li { padding: 10px 15px; font-size: 14px; margin: 6px 0; }
+
 }
 
 @media (max-width: 480px) {
 .brand-shoot.b1.persbrandimg .brand-photo img { width: 100%; }
-
+.strategic-boxes.story-boxes-img { width: 100% !important; } 
 }

@@ -15,7 +15,7 @@ export default function CorporateStory(){
 
     <section className="creative storytellingsec">
       <div className="container">
-        <div className="align-items-center row">
+        <div className="align-items-center row storychartleft">
           <div className="col-lg-5 col-md-7">
             <div className="class-one">
               <span>Our clients have used CT25-produced stories to:</span>
