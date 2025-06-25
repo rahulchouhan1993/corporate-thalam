@@ -3885,7 +3885,7 @@ section.pro .row {
 .herobanner-services.service-1.adverbanner .herobanner-head h1 { width: 100%; max-width: 800px; }
 .creative.storytellingsec { overflow: hidden; }
 .strategic-sec.ser-13-0 { overflow: hidden; }
-
+.brand-shoot.persbrandimg .brand-photo img { width: 25%; padding: 10px; }
 
 
 @media (max-width: 1399px) {
@@ -3909,6 +3909,7 @@ section.pricing-methodolgies { overflow: hidden; }
 .stragetic-main-left { padding: 135px 110px; }
 .main-btn-ser .bottom-btn1 a { font-size: 15px; min-width: 200px; }
 .card1 h3 { font-size: 50px; }
+.serviceListBx ul li a span { font-size: 18px; }
 
 }
 
@@ -4040,11 +4041,17 @@ ul.brandBoostrow { flex-wrap: wrap; }
 ul.brandBoostrow li { width: 100%; }
 .reviewslierow .review-card img { height: 40vw;}
 .brandBoostrow li:not(:first-child):after { top: -28px; left: 50%; right: auto; transform: translateX(-50%) rotate(90deg); }
-.boostbrandto .main-btn-ser { width: 100%; gap: 0; padding: 20px 0 0; }
+.boostbrandto .main-btn-ser { width: 100%; gap: 0; padding: 20px 0 0; flex-wrap: wrap;}
+.main-btn-ser .line-12::before { display: none;}
 .boostbrandto .main-btn-ser .bottom-btn1 { padding: 10px 10px; margin-top: 0; width: 50%; }
 .serviceListBx ul { flex-wrap: wrap; padding: 0; }
 .serviceListBx ul li, .serviceListBx ul li:nth-child(3), .serviceListBx ul li:nth-child(4) { width: calc(50% - 10px); padding: 0; }
-.powerideabox .prod-lis ul li { max-width: 100%; text-align: center; justify-content: center; padding: 15px 15px;         margin: 20px 0; }
+.powerideabox .prod-lis ul li { width: 100%; max-width: 100%; text-align: center; justify-content: center; padding: 15px 15px;  margin: 10px 0; }
+.line0001::before { display: none;}
+.powerideabox .lef-1 .class-one ul { padding: 0; flex-wrap: wrap; gap: 0;}
+.powerideabox .lef-1 .class-one ul li { width: 100%; max-width: 100%; }
+.pro.craftingonebox .bottom-btn1 { margin: 0; }
+.powerideabox .class-one { width: 100%; }
 .powerideabox .main-btn-ser .line-12::before { top: -28px; left: 50%; background-image: url(/images/dotLine.svg); transform: translateX(-50%) rotate(90deg); bottom: auto; }
 .pro.craftingonebox .left-pro { position: initial; width: 100%; }
 .row.storychartleft .col-lg-5.col-md-7 { width: 100%; }
@@ -4057,6 +4064,22 @@ section.creative .class-one ul li { width: 100%; max-width: 100%; text-align: ce
 .serviceBxMid .service-box { width: 100%; }
 .member-card { width: 31%;}
 .member-card p { font-size: 20px; }
+.grid-wrapper .grid-row.top-row .grid-item { width: calc(50% - 8px); }
+.grid-wrapper .grid-row.bottom-row { flex-wrap: wrap; }
+.grid-wrapper .grid-col-1 { width: 100%; }
+.grid-row.bottom-row .grid-col-2 { width: 100%; }
+.grid-wrapper .grid-row .text-box .hardwork { position: absolute; top: 0; padding: 15px;}
+.strategic-boxes-img { height: 150px; width: 150px; }
+.stragetic-box-main { gap: 20px; }
+.strategic-boxes p { font-size: 20px; }
+.strategic-head h1 { width: 100%; }
+.image-creative-crew-main h1 { font-size: 20px;}
+.image-creative-crew-main { top: auto; bottom: 10px; }
+.highlights .card1 h3 { font-size: 40px; }
+.highlights .cards-main { align-items: flex-start; }
+.powerideabox .prod-lis ul { flex-wrap: wrap; gap: 0; }
+.stragetic-box-main { align-items: flex-start; }
+
 }
 
 
@@ -4101,6 +4124,17 @@ section.creative .storychartleft .class-one ul li { padding: 10px 15px; font-siz
 body .flow-connector-bx { flex-direction: initial; }
 .flow-section .flow-connector { max-width: 100%; }
 .flow-section .flow-box { width: 100%; }
+.imagebox-creative-crew-main { margin: 13px 0; }
+section.creative-crew { padding: 40px 0px; }
+.creative-crew .herobanner-head h1 { padding: 0; }
+.imagebox-creative-crew-main img, .imagebox-event img { padding: 0 !important; } 
+.watchgrapbbtn .bottom-btn1 { display: none; }
+.expert-video-main { margin: 0 0 20px; }
+.video-expert-content p { padding: 0; }
+.expert-content-bottom.video-expert-content .bottom-btn1 { width: 100%; }
+.brandsocialsec .col-xl-4.col-lg-5.col-md-5.col-12 { padding: 0; }
+.boostbrandto .bottom-btn1 { margin-top: 15px; margin-bottom: 30px; }
+.serviceListBx ul li a span { padding: 0 0 15px !important; margin: 0; }
 
 }
 
