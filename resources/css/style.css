@@ -4075,7 +4075,9 @@ section.creative .class-one ul li { width: 100%; max-width: 100%; text-align: ce
 .handlebacklist.rightlistbox li:nth-child(1):after, .handlebacklist.rightlistbox li:nth-child(2):after, .handlebacklist.rightlistbox li:nth-child(3):after, .handlebacklist.rightlistbox li:after { transform: translateX(-50%); bottom: auto; left: 50%; right: auto; }
 .handlebacklist.rightlistbox li:last-child:after { display: none !important;}
 .handeltopsec .startsmheading { max-width: 100%; margin: 0; }
-.ourWorkTabs .nav-tabs li.nav-item { width: 50%; }
+.ourWorkTabs .nav-tabs { border-radius: 10px; display: block; }
+.ourWorkTabs .nav-tabs li.nav-item { width: 100%; }
+.ourWorkTabs .nav-tabs li .nav-link { width: 100%; }
 .serviceListBx ul { margin: 0; padding: 0; }
 .text-box .hardwork { margin: 0; }
 .heading, .transparent-section h2, .client-title, .influencer .herobanner-head h1 { font-size: 28px; }
