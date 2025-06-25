@@ -3973,6 +3973,11 @@ body .brand-head h1 { margin: 0 0 20px; }
 .class-one span::before { top: -170px;}
 .priceboxbtns { display: block; text-align: center; }
 .plan-card a.first-btn, .plan-card a.second-btn { padding: 12px 10px; width: 100% !important; display: block; margin: 10px 0;}
+.main-ser-0014::before { top: 25px;}
+.Consistentdata .content-trust{ width: 33.33%; }
+.Consistentdata .ser-15 .mrgin0 { margin-left: 0; }
+.trust-foundation.Consistentdata .main-ser-0014 { margin: 0; }
+.trust-foundation.Consistentdata { padding-bottom: 0; margin-bottom: 0; }
 
 }
 
@@ -4085,11 +4090,13 @@ section.creative .class-one ul li { width: 100%; max-width: 100%; text-align: ce
 .strategic-sec .cseStudiesRt { padding: 20px 0;}
 section.our-plans { padding: 50px 0px; }
 .our-plans .plan-card { margin: 13px 0; display: inline-block; width: 100%; }
+.Consistentdata .ser-15 h5 { font-size: 14px;} 
+.info-stages.ok-1400 { margin: 0; }
 
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 .weekdaylist li { gap: 10px;}
 .btn.lighbluebgbtn { font-size: 16px; }
 .focusonlysec{ padding: 40px 0; }
@@ -4146,6 +4153,11 @@ section.creative-crew { padding: 40px 0px; }
 section.trust-foundation { padding: 40px 0px; }
 .plan-card h2 { font-size: 18px; }
 .content-trust h2 { font-size: 20px; }
+.Consistentdata .main-ser-0014::before, .Consistentdata .line00011::before { display: none; }
+.Consistentdata .main-box-ser-14 { flex-wrap: wrap; }
+.Consistentdata .content-trust { width: 100%; }
+.Consistentdata ul { padding: 0 0 0 20px !important; margin: 0; }
+.Consistentdata .ser-15 h5 { margin: 0 0 13px !important;}
 
 }
 

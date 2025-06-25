@@ -25,11 +25,11 @@ export default function ClientSatisfaction(){
               <p>Our structured approach bridges creativity with strategy, and our clients benefit from a smooth, transparent, and satisfying journey from idea to execution.</p>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-xl-6 col-md-12">
             <div className="main-ser-0014">
             <div className="main-box-ser-14">
               <div className="content-trust line-001 ser-15 ms-0">
-              <h5 className="line00011">CLIENT DISCOVERY & STRATEGY</h5>
+              <h5 className="line00011 mrgin0">CLIENT DISCOVERY & STRATEGY</h5>
               <ul className="space-ul paddongsm">
                 <li> Brand & Goal Understanding</li>
                 <li>Audience Analysis</li>
@@ -81,7 +81,7 @@ export default function ClientSatisfaction(){
             </div>
           </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-xl-6 col-md-12">
           <div className="info-stages ok-1400">
             <div className="info-column">
               <h4>INFORMATION REQUIREMENTS</h4>
