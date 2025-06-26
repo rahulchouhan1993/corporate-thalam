@@ -192,99 +192,103 @@ export default function Home(){
             <div className="social-wrapper">
                 <div className="social-column">
                     <div className="banner">
-                        <button className="youtube-button">
+                        <a href="https://www.youtube.com/@corporatethalam25" target="_blank" className="youtube-button">
                             <img src="images/socialyoutubeimg1.svg" alt="Corporate Thalam" />
-                        </button>
+                        </a>
                     </div>
                     <div className="tags">
-                        <button>
+                        <a href="https://x.com/corporatethalam?t=fX28Q8XvWDv08NDZwLHlJg&s=08" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.74016 12.2092L12.7085 17.5H18.5418L11.9935 8.76833L17.4418 2.5H15.2335L10.9693 7.405L7.29183 2.5H1.4585L7.71683 10.8458L1.9335 17.5H4.14183L8.74016 12.2092ZM13.5418 15.8333L4.79183 4.16667H6.4585L15.2085 15.8333H13.5418Z" fill="#01123D" />
                             </svg>
-                            @CorporateThalam_25 
-                        </button>
-                        <button>
+                            @corporatethalam 
+                        </a>
+                        <a href="https://www.linkedin.com/in/corporate-thalam-8397b9363/recent-activity/all/" target="_blank">
+                            <svg fill="#000000" height="20" width="20" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.959 45.959" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M5.392,0.492C2.268,0.492,0,2.647,0,5.614c0,2.966,2.223,5.119,5.284,5.119c1.588,0,2.956-0.515,3.957-1.489 c0.96-0.935,1.489-2.224,1.488-3.653C10.659,2.589,8.464,0.492,5.392,0.492z M7.847,7.811C7.227,8.414,6.34,8.733,5.284,8.733 C3.351,8.733,2,7.451,2,5.614c0-1.867,1.363-3.122,3.392-3.122c1.983,0,3.293,1.235,3.338,3.123 C8.729,6.477,8.416,7.256,7.847,7.811z"></path> <path d="M0.959,45.467h8.988V12.422H0.959V45.467z M2.959,14.422h4.988v29.044H2.959V14.422z"></path> <path d="M33.648,12.422c-4.168,0-6.72,1.439-8.198,2.792l-0.281-2.792H15v33.044h9.959V28.099c0-0.748,0.303-2.301,0.493-2.711 c1.203-2.591,2.826-2.591,5.284-2.591c2.831,0,5.223,2.655,5.223,5.797v16.874h10v-18.67 C45.959,16.92,39.577,12.422,33.648,12.422z M43.959,43.467h-6V28.593c0-4.227-3.308-7.797-7.223-7.797 c-2.512,0-5.358,0-7.099,3.75c-0.359,0.775-0.679,2.632-0.679,3.553v15.368H17V14.422h6.36l0.408,4.044h1.639l0.293-0.473 c0.667-1.074,2.776-3.572,7.948-3.572c4.966,0,10.311,3.872,10.311,12.374V43.467z"></path> </g> </g> </g></svg>
+                            @corporate_thalam_25 
+                        </a>
+                        <a href="https://www.instagram.com/corporate_thalam_25/" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.49984 1.66675H13.4998C16.1665 1.66675 18.3332 3.83341 18.3332 6.50008V13.5001C18.3332 14.782 17.8239 16.0113 16.9175 16.9178C16.0111 17.8242 14.7817 18.3334 13.4998 18.3334H6.49984C3.83317 18.3334 1.6665 16.1667 1.6665 13.5001V6.50008C1.6665 5.2182 2.17573 3.98882 3.08215 3.0824C3.98858 2.17597 5.21796 1.66675 6.49984 1.66675ZM6.33317 3.33341C5.53752 3.33341 4.77446 3.64949 4.21185 4.21209C3.64924 4.7747 3.33317 5.53777 3.33317 6.33341V13.6667C3.33317 15.3251 4.67484 16.6667 6.33317 16.6667H13.6665C14.4622 16.6667 15.2252 16.3507 15.7878 15.7881C16.3504 15.2255 16.6665 14.4624 16.6665 13.6667V6.33341C16.6665 4.67508 15.3248 3.33341 13.6665 3.33341H6.33317ZM14.3748 4.58341C14.6511 4.58341 14.9161 4.69316 15.1114 4.88851C15.3068 5.08386 15.4165 5.34881 15.4165 5.62508C15.4165 5.90135 15.3068 6.1663 15.1114 6.36165C14.9161 6.557 14.6511 6.66675 14.3748 6.66675C14.0986 6.66675 13.8336 6.557 13.6383 6.36165C13.4429 6.1663 13.3332 5.90135 13.3332 5.62508C13.3332 5.34881 13.4429 5.08386 13.6383 4.88851C13.8336 4.69316 14.0986 4.58341 14.3748 4.58341ZM9.99984 5.83341C11.1049 5.83341 12.1647 6.2724 12.9461 7.0538C13.7275 7.8352 14.1665 8.89501 14.1665 10.0001C14.1665 11.1052 13.7275 12.165 12.9461 12.9464C12.1647 13.7278 11.1049 14.1667 9.99984 14.1667C8.89477 14.1667 7.83496 13.7278 7.05356 12.9464C6.27216 12.165 5.83317 11.1052 5.83317 10.0001C5.83317 8.89501 6.27216 7.8352 7.05356 7.0538C7.83496 6.2724 8.89477 5.83341 9.99984 5.83341ZM9.99984 7.50008C9.3368 7.50008 8.70091 7.76347 8.23207 8.23231C7.76323 8.70115 7.49984 9.33704 7.49984 10.0001C7.49984 10.6631 7.76323 11.299 8.23207 11.7678C8.70091 12.2367 9.3368 12.5001 9.99984 12.5001C10.6629 12.5001 11.2988 12.2367 11.7676 11.7678C12.2364 11.299 12.4998 10.6631 12.4998 10.0001C12.4998 9.33704 12.2364 8.70115 11.7676 8.23231C11.2988 7.76347 10.6629 7.50008 9.99984 7.50008Z" fill="#01123D" />
                             </svg>
-                            CorporateThalam_25 
-                        </button>
-                        <button>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.49984 1.66675H13.4998C16.1665 1.66675 18.3332 3.83341 18.3332 6.50008V13.5001C18.3332 14.782 17.8239 16.0113 16.9175 16.9178C16.0111 17.8242 14.7817 18.3334 13.4998 18.3334H6.49984C3.83317 18.3334 1.6665 16.1667 1.6665 13.5001V6.50008C1.6665 5.2182 2.17573 3.98882 3.08215 3.0824C3.98858 2.17597 5.21796 1.66675 6.49984 1.66675ZM6.33317 3.33341C5.53752 3.33341 4.77446 3.64949 4.21185 4.21209C3.64924 4.7747 3.33317 5.53777 3.33317 6.33341V13.6667C3.33317 15.3251 4.67484 16.6667 6.33317 16.6667H13.6665C14.4622 16.6667 15.2252 16.3507 15.7878 15.7881C16.3504 15.2255 16.6665 14.4624 16.6665 13.6667V6.33341C16.6665 4.67508 15.3248 3.33341 13.6665 3.33341H6.33317ZM14.3748 4.58341C14.6511 4.58341 14.9161 4.69316 15.1114 4.88851C15.3068 5.08386 15.4165 5.34881 15.4165 5.62508C15.4165 5.90135 15.3068 6.1663 15.1114 6.36165C14.9161 6.557 14.6511 6.66675 14.3748 6.66675C14.0986 6.66675 13.8336 6.557 13.6383 6.36165C13.4429 6.1663 13.3332 5.90135 13.3332 5.62508C13.3332 5.34881 13.4429 5.08386 13.6383 4.88851C13.8336 4.69316 14.0986 4.58341 14.3748 4.58341ZM9.99984 5.83341C11.1049 5.83341 12.1647 6.2724 12.9461 7.0538C13.7275 7.8352 14.1665 8.89501 14.1665 10.0001C14.1665 11.1052 13.7275 12.165 12.9461 12.9464C12.1647 13.7278 11.1049 14.1667 9.99984 14.1667C8.89477 14.1667 7.83496 13.7278 7.05356 12.9464C6.27216 12.165 5.83317 11.1052 5.83317 10.0001C5.83317 8.89501 6.27216 7.8352 7.05356 7.0538C7.83496 6.2724 8.89477 5.83341 9.99984 5.83341ZM9.99984 7.50008C9.3368 7.50008 8.70091 7.76347 8.23207 8.23231C7.76323 8.70115 7.49984 9.33704 7.49984 10.0001C7.49984 10.6631 7.76323 11.299 8.23207 11.7678C8.70091 12.2367 9.3368 12.5001 9.99984 12.5001C10.6629 12.5001 11.2988 12.2367 11.7676 11.7678C12.2364 11.299 12.4998 10.6631 12.4998 10.0001C12.4998 9.33704 12.2364 8.70115 11.7676 8.23231C11.2988 7.76347 10.6629 7.50008 9.99984 7.50008Z" fill="#01123D" />
-                            </svg>
-                            CorporateThalam_25 
-                        </button>
-                    </div>
-                    <div className="posts">
-                        <a href="#">
-                        <img src="images/shenot.png" alt="Post 1" />
+                            @corporate_thalam_25 
                         </a>
-                        <a href="#">
-                        <img src="images/2.png" alt="Post 1" />
-                        </a>
-                        <a href="#">
-                        <img src="images/3.png" alt="Post 1" />
+                        <a href="https://www.facebook.com/share/1PDz3KYDYK/" target="_blank">
+                            <svg fill="#000000"  width="20" height="20" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="m1416.013 791.915-30.91 225.617h-371.252v789.66H788.234v-789.66H449.808V791.915h338.426V585.137c0-286.871 176.207-472.329 449.09-472.329 116.87 0 189.744 6.205 231.822 11.845l-3.272 213.66-173.5.338c-4.737-.451-117.771-9.25-199.332 65.655-52.568 48.169-79.191 117.433-79.191 205.65v181.96h402.162Zm-247.276-304.018c44.446-41.401 113.71-36.889 118.787-36.663l289.467-.113 6.204-417.504-43.544-10.717C1511.675 16.02 1426.053 0 1237.324 0 901.268 0 675.425 235.206 675.425 585.137v93.97H337v451.234h338.425V1920h451.234v-789.66h356.7l61.932-451.233H1126.66v-69.152c0-54.937 14.214-96 42.078-122.058Z" fill-rule="evenodd"></path> </g></svg>
+                            @corporate_thalam_25 
                         </a>
                     </div>
                     <div className="posts">
                         <a href="#">
-                        <img src="images/5.png" alt="Post 1" />
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/m8pwcYgDL1w?si=NEzCgR14jADKofBD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </a>
                         <a href="#">
-                        <img src="images/6.png" alt="Post 1" />
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/gY0L_hccLsI?si=pZp2TfAGEW9uZmHZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </a>
                         <a href="#">
-                        <img src="images/8.png" alt="Post 1" />
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/3UwMwkBY0Qs?si=pYRJWpQDHaQtgt0a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </a>
+                    </div>
+                    <div className="posts">
+                        <a href="#">
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/yjgzjvecJhM?si=8y9YEaGqkPWrzfJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </a>
+                        <a href="#">
+                       <iframe width="200" height="200" src="https://www.youtube.com/embed/hMmrjLveyQs?si=IPKwKrrxd4fT4TsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </a>
+                        <a href="#">
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/4qMO9VeSknQ?si=WYZ40BKYuwbBkAW6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </a>
                     </div>
                 </div>
                 <div className="social-column">
                     <div className="banner">
-                        <button className="youtube-button">
+                        <a href="https://www.youtube.com/@Politicalthalam_25" target="_blank" className="youtube-button">
                             <img src="images/socialyoutubeimgn.png" alt="YouTube" />
-                        </button>
+                        </a>
                     </div>
                     <div className="tags">
-                        <button>
+                        <a href="https://x.com/Politicalthalam?t=RhtCeBJlKaYFez1cQ0a-iw&s=08" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.74016 12.2092L12.7085 17.5H18.5418L11.9935 8.76833L17.4418 2.5H15.2335L10.9693 7.405L7.29183 2.5H1.4585L7.71683 10.8458L1.9335 17.5H4.14183L8.74016 12.2092ZM13.5418 15.8333L4.79183 4.16667H6.4585L15.2085 15.8333H13.5418Z" fill="#01123D" />
                             </svg>
-                            @CorporateThalam_25 
-                        </button>
-                        <button>
+                            @Politicalthalam
+                        </a>
+                        <a href="https://www.linkedin.com/company/political-thalam-25/posts/?feedView=all" target="_blank">
+                            <svg fill="#000000" height="20" width="20" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.959 45.959" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M5.392,0.492C2.268,0.492,0,2.647,0,5.614c0,2.966,2.223,5.119,5.284,5.119c1.588,0,2.956-0.515,3.957-1.489 c0.96-0.935,1.489-2.224,1.488-3.653C10.659,2.589,8.464,0.492,5.392,0.492z M7.847,7.811C7.227,8.414,6.34,8.733,5.284,8.733 C3.351,8.733,2,7.451,2,5.614c0-1.867,1.363-3.122,3.392-3.122c1.983,0,3.293,1.235,3.338,3.123 C8.729,6.477,8.416,7.256,7.847,7.811z"></path> <path d="M0.959,45.467h8.988V12.422H0.959V45.467z M2.959,14.422h4.988v29.044H2.959V14.422z"></path> <path d="M33.648,12.422c-4.168,0-6.72,1.439-8.198,2.792l-0.281-2.792H15v33.044h9.959V28.099c0-0.748,0.303-2.301,0.493-2.711 c1.203-2.591,2.826-2.591,5.284-2.591c2.831,0,5.223,2.655,5.223,5.797v16.874h10v-18.67 C45.959,16.92,39.577,12.422,33.648,12.422z M43.959,43.467h-6V28.593c0-4.227-3.308-7.797-7.223-7.797 c-2.512,0-5.358,0-7.099,3.75c-0.359,0.775-0.679,2.632-0.679,3.553v15.368H17V14.422h6.36l0.408,4.044h1.639l0.293-0.473 c0.667-1.074,2.776-3.572,7.948-3.572c4.966,0,10.311,3.872,10.311,12.374V43.467z"></path> </g> </g> </g></svg>
+                            @political_thalam_25
+                        </a>
+                        <a href="https://instagram.com/political_thalam_25?igsh=cjg4eXp3NDdxM3M2 " target="_blank">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.49984 1.66675H13.4998C16.1665 1.66675 18.3332 3.83341 18.3332 6.50008V13.5001C18.3332 14.782 17.8239 16.0113 16.9175 16.9178C16.0111 17.8242 14.7817 18.3334 13.4998 18.3334H6.49984C3.83317 18.3334 1.6665 16.1667 1.6665 13.5001V6.50008C1.6665 5.2182 2.17573 3.98882 3.08215 3.0824C3.98858 2.17597 5.21796 1.66675 6.49984 1.66675ZM6.33317 3.33341C5.53752 3.33341 4.77446 3.64949 4.21185 4.21209C3.64924 4.7747 3.33317 5.53777 3.33317 6.33341V13.6667C3.33317 15.3251 4.67484 16.6667 6.33317 16.6667H13.6665C14.4622 16.6667 15.2252 16.3507 15.7878 15.7881C16.3504 15.2255 16.6665 14.4624 16.6665 13.6667V6.33341C16.6665 4.67508 15.3248 3.33341 13.6665 3.33341H6.33317ZM14.3748 4.58341C14.6511 4.58341 14.9161 4.69316 15.1114 4.88851C15.3068 5.08386 15.4165 5.34881 15.4165 5.62508C15.4165 5.90135 15.3068 6.1663 15.1114 6.36165C14.9161 6.557 14.6511 6.66675 14.3748 6.66675C14.0986 6.66675 13.8336 6.557 13.6383 6.36165C13.4429 6.1663 13.3332 5.90135 13.3332 5.62508C13.3332 5.34881 13.4429 5.08386 13.6383 4.88851C13.8336 4.69316 14.0986 4.58341 14.3748 4.58341ZM9.99984 5.83341C11.1049 5.83341 12.1647 6.2724 12.9461 7.0538C13.7275 7.8352 14.1665 8.89501 14.1665 10.0001C14.1665 11.1052 13.7275 12.165 12.9461 12.9464C12.1647 13.7278 11.1049 14.1667 9.99984 14.1667C8.89477 14.1667 7.83496 13.7278 7.05356 12.9464C6.27216 12.165 5.83317 11.1052 5.83317 10.0001C5.83317 8.89501 6.27216 7.8352 7.05356 7.0538C7.83496 6.2724 8.89477 5.83341 9.99984 5.83341ZM9.99984 7.50008C9.3368 7.50008 8.70091 7.76347 8.23207 8.23231C7.76323 8.70115 7.49984 9.33704 7.49984 10.0001C7.49984 10.6631 7.76323 11.299 8.23207 11.7678C8.70091 12.2367 9.3368 12.5001 9.99984 12.5001C10.6629 12.5001 11.2988 12.2367 11.7676 11.7678C12.2364 11.299 12.4998 10.6631 12.4998 10.0001C12.4998 9.33704 12.2364 8.70115 11.7676 8.23231C11.2988 7.76347 10.6629 7.50008 9.99984 7.50008Z" fill="#01123D" />
                             </svg>
-                            CorporateThalam_25 
-                        </button>
-                        <button>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.49984 1.66675H13.4998C16.1665 1.66675 18.3332 3.83341 18.3332 6.50008V13.5001C18.3332 14.782 17.8239 16.0113 16.9175 16.9178C16.0111 17.8242 14.7817 18.3334 13.4998 18.3334H6.49984C3.83317 18.3334 1.6665 16.1667 1.6665 13.5001V6.50008C1.6665 5.2182 2.17573 3.98882 3.08215 3.0824C3.98858 2.17597 5.21796 1.66675 6.49984 1.66675ZM6.33317 3.33341C5.53752 3.33341 4.77446 3.64949 4.21185 4.21209C3.64924 4.7747 3.33317 5.53777 3.33317 6.33341V13.6667C3.33317 15.3251 4.67484 16.6667 6.33317 16.6667H13.6665C14.4622 16.6667 15.2252 16.3507 15.7878 15.7881C16.3504 15.2255 16.6665 14.4624 16.6665 13.6667V6.33341C16.6665 4.67508 15.3248 3.33341 13.6665 3.33341H6.33317ZM14.3748 4.58341C14.6511 4.58341 14.9161 4.69316 15.1114 4.88851C15.3068 5.08386 15.4165 5.34881 15.4165 5.62508C15.4165 5.90135 15.3068 6.1663 15.1114 6.36165C14.9161 6.557 14.6511 6.66675 14.3748 6.66675C14.0986 6.66675 13.8336 6.557 13.6383 6.36165C13.4429 6.1663 13.3332 5.90135 13.3332 5.62508C13.3332 5.34881 13.4429 5.08386 13.6383 4.88851C13.8336 4.69316 14.0986 4.58341 14.3748 4.58341ZM9.99984 5.83341C11.1049 5.83341 12.1647 6.2724 12.9461 7.0538C13.7275 7.8352 14.1665 8.89501 14.1665 10.0001C14.1665 11.1052 13.7275 12.165 12.9461 12.9464C12.1647 13.7278 11.1049 14.1667 9.99984 14.1667C8.89477 14.1667 7.83496 13.7278 7.05356 12.9464C6.27216 12.165 5.83317 11.1052 5.83317 10.0001C5.83317 8.89501 6.27216 7.8352 7.05356 7.0538C7.83496 6.2724 8.89477 5.83341 9.99984 5.83341ZM9.99984 7.50008C9.3368 7.50008 8.70091 7.76347 8.23207 8.23231C7.76323 8.70115 7.49984 9.33704 7.49984 10.0001C7.49984 10.6631 7.76323 11.299 8.23207 11.7678C8.70091 12.2367 9.3368 12.5001 9.99984 12.5001C10.6629 12.5001 11.2988 12.2367 11.7676 11.7678C12.2364 11.299 12.4998 10.6631 12.4998 10.0001C12.4998 9.33704 12.2364 8.70115 11.7676 8.23231C11.2988 7.76347 10.6629 7.50008 9.99984 7.50008Z" fill="#01123D" />
-                            </svg>
-                            CorporateThalam_25 
-                        </button>
-                    </div>
-                    <div className="posts">
-                        <a href="#">
-                        <img src="images/4.png" alt="Post 1" />
+                            @political_thalam_25 
                         </a>
-                        <a href="#">
-                        <img src="images/4.png" alt="Post 1" />
-                        </a>
-                        <a href="#">
-                        <img src="images/4.png" alt="Post 1" />
+                        <a href="https://facebook.com/people/political-thalam-25/61574838445245" target="_blank">
+                             <svg fill="#000000"  width="20" height="20" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="m1416.013 791.915-30.91 225.617h-371.252v789.66H788.234v-789.66H449.808V791.915h338.426V585.137c0-286.871 176.207-472.329 449.09-472.329 116.87 0 189.744 6.205 231.822 11.845l-3.272 213.66-173.5.338c-4.737-.451-117.771-9.25-199.332 65.655-52.568 48.169-79.191 117.433-79.191 205.65v181.96h402.162Zm-247.276-304.018c44.446-41.401 113.71-36.889 118.787-36.663l289.467-.113 6.204-417.504-43.544-10.717C1511.675 16.02 1426.053 0 1237.324 0 901.268 0 675.425 235.206 675.425 585.137v93.97H337v451.234h338.425V1920h451.234v-789.66h356.7l61.932-451.233H1126.66v-69.152c0-54.937 14.214-96 42.078-122.058Z" fill-rule="evenodd"></path> </g></svg>
+                            @political_thalam_25
                         </a>
                     </div>
                     <div className="posts">
                         <a href="#">
-                        <img src="images/7.png" alt="Post 1" />
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/gNruKXFlG8c?si=Xi6fTTjurJwLbxUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </a>
                         <a href="#">
-                        <img src="images/7.png" alt="Post 1" />
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/s5lznTEyCf8?si=IPdW9Ib7zh7tWF9i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </a>
                         <a href="#">
-                        <img src="images/7.png" alt="Post 1" />
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/7AupzFQn-tY?si=ihICpoKC6SApo9C5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </a>
+                    </div>
+                    <div className="posts">
+                        <a href="#">
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/fIhf5cJC_9g?si=eHkttSc40QrtlJ1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </a>
+                        <a href="#">
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/DIOOSpR4Bo8?si=ulOyX8OVAlZQuUKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </a>
+                        <a href="#">
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/4KSHKhWs4Go?si=siEN-VUBxkRsfGUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </a>
                     </div>
                 </div>
@@ -753,46 +757,32 @@ export default function Home(){
                 </h2>
                 <div className="row g-0 text-center">
                 <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client01.png" alt="img" />
+                    <img src="images/client01.jpeg" alt="img" />
                 </div>
                 <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client02.png" alt="img" />
+                    <img src="images/client02.jpeg" alt="img" />
                 </div>
                 <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client03.png" alt="img" />
+                    <img src="images/client03.jpeg" alt="img" />
                 </div>
                 <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client04.png" alt="img" />
+                    <img src="images/client04.jpeg" alt="img" />
                 </div>
                 <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client01.png" alt="img" />
+                    <img src="images/client05.jpeg" alt="img" />
                 </div>
                 <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client02.png" alt="img" />
+                    <img src="images/client06.jpeg" alt="img" />
                 </div>
                 <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client03.png" alt="img" />
+                    <img src="images/client07.jpeg" alt="img" />
                 </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client04.png" alt="img" />
-                </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client01.png" alt="img" />
-                </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client02.png" alt="img" />
-                </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client03.png" alt="img" />
-                </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client04.png" alt="img" />
-                </div>
+                
                 </div>
             </div>
         </section>
 
-        <section className="ourCustomerSays">
+        {/* <section className="ourCustomerSays">
             <div className="container">
                 <h2 className="section-title">WHAT OUR CUSTOMERS SAYS ON <span>GOOGLE REVIEWS</span>
                 </h2>
@@ -800,7 +790,7 @@ export default function Home(){
                     <Reviews/>
                 </div>
             </div>
-        </section>
+        </section> */}
     </>
     )
 }
