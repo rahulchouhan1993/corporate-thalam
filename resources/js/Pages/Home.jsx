@@ -557,16 +557,16 @@ export default function Home(){
               <div className="grid-wrapper">
                   <div className="grid-row top-row">
                     <div className="grid-item w-20">
-                        <img src="images/teamimg01.png" alt="1" />
+                        <img src="images/behindseenimg.jpg" alt="1" />
                     </div>
                     <div className="grid-item w-20">
-                        <img src="images/teamimg02.png" alt="2" />
+                        <img src="images/behindseenimg7.jpg" alt="2" />
                     </div>
                     <div className="grid-item w-35">
-                        <img src="images/teamimg03.png" alt="3" />
+                        <img src="images/behindseenimg2.jpg" alt="3" />
                     </div>
                     <div className="grid-item w-24 text-box">
-                        <img src="images/teamimg04.png" alt="3" />
+                        <img src="images/behindseenimg3.jpg" alt="3" />
                         <div className="text-overlay hardwork">
                           <h3>Hard work & Dedication</h3>
                           <p> CT25 Believes, Only a structured and organized approach will meets, client understanding, tight deadlines without compromising on quality or costs </p>
@@ -575,16 +575,16 @@ export default function Home(){
                   </div>
                   <div className="grid-row bottom-row">
                     <div className="grid-col-1">
-                        <div className="grid-item">
-                          <img src="images/teamimg05.png" alt="4" />
+                        <div className="grid-item h-100">
+                          <img src="images/behindseenimg4.jpg" alt="4" />
                         </div>
                     </div>
                     <div className="grid-col-2">
                         <div className="grid-item">
-                          <img src="images/teamimg06.png" alt="5" />
+                          <img src="images/behindseenimg5.jpg" alt="5" />
                         </div>
                         <div className="grid-item">
-                          <img src="images/teamimg07.png" alt="6" />
+                          <img src="images/behindseenimg6.jpg" alt="6" />
                         </div>
                         <div className="cta-row">
                           <p>Looking for Career with CT25 ?</p>
@@ -789,32 +789,46 @@ export default function Home(){
                 </div>
             </div>
         </section>
-        <section className="clientsBx">
+        <section className="clientsBx homeworkclient">
             <div className="container">
                 <h2 className="client-title">
                 <span>CLIENT</span> WE HAVE WORKED FOR
                 </h2>
                 <div className="row g-0 text-center">
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client01.jpeg" alt="img" />
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client01.jpeg" alt="img" />
+                    </div>
                 </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client02.jpeg" alt="img" />
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client02.jpeg" alt="img" />
+                    </div>
                 </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client03.jpeg" alt="img" />
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client03.jpeg" alt="img" />
+                    </div>
                 </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client04.jpeg" alt="img" />
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client04.jpeg" alt="img" />
+                    </div>
                 </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client05.jpeg" alt="img" />
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client05.jpeg" alt="img" />
+                    </div>
                 </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client06.jpeg" alt="img" />
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client06.jpeg" alt="img" />
+                    </div>
                 </div>
-                <div className="col-6 col-md-2 client-logo">
-                    <img src="images/client07.jpeg" alt="img" />
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client07.jpeg" alt="img" />
+                    </div>
                 </div>
                 
                 </div>

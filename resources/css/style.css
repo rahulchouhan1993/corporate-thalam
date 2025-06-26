@@ -543,7 +543,7 @@ ul.navbar-nav li .nav-link.active{
   margin-bottom: 40px;
 }
 
-.tags button {
+.tags button, .tags a {
   background-color: #ebeef7;
   border: none;
   padding: 8px 12px;
@@ -557,6 +557,7 @@ ul.navbar-nav li .nav-link.active{
   font-weight: 500;
   color: #020008;
   border: 1px solid #02000833;
+  text-decoration: none;
 }
 
 .posts {
@@ -567,7 +568,7 @@ ul.navbar-nav li .nav-link.active{
   margin-bottom: 20px;
 }
 
-.posts img {
+.posts img, .posts iframe {
   width: 30%;
   min-width: 150px;
   border-radius: 12px;
@@ -578,7 +579,7 @@ ul.navbar-nav li .nav-link.active{
   width: 31%;
 }
 
-.posts a img {
+.posts a img, .posts a iframe {
   width: 100%;
   object-fit: cover;
 }
@@ -1302,10 +1303,18 @@ ul.navbar-nav li .nav-link.active{
 }
 
 .hardwork {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: 20px 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px 15px;
+    background: rgba(0,0,0,0.3);
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    align-content: center;
 }
 
 .hardwork h3 {
@@ -1595,7 +1604,7 @@ ul.navbar-nav li .nav-link.active{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding-bottom: 0;
 }
 
 .footer-logo {
@@ -1630,7 +1639,7 @@ ul.navbar-nav li .nav-link.active{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 0;
   position: relative;
 }
 
@@ -1661,11 +1670,11 @@ ul.navbar-nav li .nav-link.active{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 0 50px;
+  margin: 0 0 25px;
 }
 
 .footer-map {
-  width: 60%;
+  width: 50%;
 }
 
 .footer-map iframe {
@@ -2278,22 +2287,22 @@ section.brand-shoot.b1 .brand-photo {
 
 .footer-middle::before {
   position: absolute;
-  top: 163px;
+  top: 0px;
   left: -356px;
   content: "";
   width: 2112px;
-  height: 2px;
+  height: 1px;
   border: 0.6px solid #ffffff;
   opacity: 10%;
 }
 
 .footer-middle::after {
   position: absolute;
-  bottom: 163px;
+  bottom: 0px;
   right: -350px;
   content: "";
   width: 2112px;
-  height: 2px;
+  height: 1px;
   border: 0.6px solid #ffffff;
   opacity: 10%;
 }
@@ -3886,6 +3895,12 @@ section.pro .row {
 .creative.storytellingsec { overflow: hidden; }
 .strategic-sec.ser-13-0 { overflow: hidden; }
 .brand-shoot.persbrandimg .brand-photo img { width: 25%; padding: 10px; }
+.clientsBx.homeworkclient .client-logo { height: 200px; overflow: hidden; align-items: center; justify-content: center; }
+.clientsBx.homeworkclient .client-logo img { height: 100%; width: 100%; object-fit: contain; }
+.footer-middle .contact-info::before { display: none; }
+.footer-middle .contact-info { width: 50%; }
+
+
 
 
 @media (max-width: 1399px) {
@@ -3978,6 +3993,8 @@ body .brand-head h1 { margin: 0 0 20px; }
 .Consistentdata .ser-15 .mrgin0 { margin-left: 0; }
 .trust-foundation.Consistentdata .main-ser-0014 { margin: 0; }
 .trust-foundation.Consistentdata { padding-bottom: 0; margin-bottom: 0; }
+.contact-item { font-size: 15px;}
+.footer-nav a { font-size: 14px;}
 
 }
 
@@ -4103,6 +4120,9 @@ section.creative .class-one ul li { margin: 15px 0; }
 .storytellingsec .class-one ul { gap: 0; }
 .storychartleft .class-one li:after { width: 1px; top: 58px; }
 section.creative .class-one ul li:last-child:after { display: none;}
+.posts a { width: calc(50% - 10px); }
+.footHead { display: block; text-align: center; }
+.footer-nav { gap: 25px; justify-content: center; }
 
 }
 
@@ -4174,6 +4194,7 @@ section.trust-foundation { padding: 40px 0px; }
 .storychartleft .class-one span:after { width: 1px; top: 43px;}
 .storychartleft .class-one li:after { width: 1px; top: 46px; }
 section.strategic-sec { padding-bottom: 0 !important; }
+.footer-nav { gap: 10px; justify-content: flex-start; text-align: left; margin-top: 20px; }
 
 }
 
