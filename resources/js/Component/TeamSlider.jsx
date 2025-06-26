@@ -25,8 +25,9 @@ const TeamSlider = ({ images, title }) => {
       <Slider {...settings} className="team-slider">
         {images.map((img, idx) => (
           <div className="team-member text-center" key={idx}>
-            <img src={img} alt={`Member ${idx + 1}`} />
-            <p>Shree Abirami</p>
+            <img src={img.img} alt={`Member ${idx + 1}`} />
+            <p>{img.title}</p>
+            <span>{img.post}</span>
           </div>
         ))}
       </Slider>

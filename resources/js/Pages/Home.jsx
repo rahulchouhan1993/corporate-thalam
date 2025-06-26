@@ -5,25 +5,64 @@ import { Link } from '@inertiajs/react';
 export default function Home(){
 //console.log(window.Ziggy.routes.home);
     const creativeImages = [
-        "images/tecjimg01.jpg",
-        "images/tecjimg02.jpg",
-        "images/tecjimg03.jpg",
-        "images/tecjimg04.jpg",
-        "images/tecjimg01.jpg",
-        "images/tecjimg02.jpg",
-        "images/tecjimg03.jpg",
-        "images/tecjimg04.jpg"
+        {
+        img: "/images/Shiva.jpeg",
+        title: "Shiva",
+        post: "Excutive Editor"
+        },
+        {
+        img: "/images/Sabari.jpeg",
+        title: "Sabari Grisan",
+        post: "Excutive Editor"
+        },
+        {
+        img: "/images/Abirami.jpeg",
+        title: "Sree Abirami SA",
+        post: "Content Writer"
+        },
+        {
+        img: "/images/Abinaya.jpeg",
+        title: "Abinaya Varshini",
+        post: " Content Writer"
+        },
+        {
+        img: "/images/Pavithra.jpeg",
+        title: "Pavithra",
+        post: "Mass Communication and Marketing Specialist"
+        },
+        {
+        img: "/images/Jerry.jpeg",
+        title: "Jerry Leonardo Mathew",
+        post: "Director"
+        },
+        {
+        img: "/images/Vadivel.jpeg",
+        title: "Vadivel",
+        post: "Creative Head"
+        }
     ];
 
     const showHostImages = [
-        "images/tecjimg05.jpg",
-        "images/tecjimg06.jpg",
-        "images/tecjimg07.jpg",
-        "images/tecjimg08.jpg",
-        "images/tecjimg05.jpg",
-        "images/tecjimg06.jpg",
-        "images/tecjimg07.jpg",
-        "images/tecjimg08.jpg"
+        {
+        img: "/images/Nimitha.jpeg",
+        title: "Nimitha",
+        post: "Presenter"
+        },
+        {
+        img: "/images/Monisha.jpeg",
+        title: "Monisha",
+        post: "Presenter"
+        },
+        {
+        img: "/images/Kavitha.jpeg",
+        title: "Kavitha",
+        post: "Presenter"
+        },
+        {
+        img: "/images/Swathi.jpeg",
+        title: "Swathi",
+        post: " Presenter"
+        }
     ];
     return (
     <>
