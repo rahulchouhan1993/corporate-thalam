@@ -563,14 +563,11 @@ export default function Home(){
                         <img src="images/behindseenimg7.jpg" alt="2" />
                     </div>
                     <div className="grid-item w-35">
-                        <img src="images/behindseenimg2.jpg" alt="3" />
+                        <img src="images/behindseenimg3.jpg" alt="3" />
                     </div>
                     <div className="grid-item w-24 text-box">
-                        <img src="images/behindseenimg3.jpg" alt="3" />
-                        <div className="text-overlay hardwork">
-                          <h3>Hard work & Dedication</h3>
-                          <p> CT25 Believes, Only a structured and organized approach will meets, client understanding, tight deadlines without compromising on quality or costs </p>
-                        </div>
+                        <img src="images/behindseenimg2.jpg" alt="3" />
+                        
                     </div>
                   </div>
                   <div className="grid-row bottom-row">
@@ -652,10 +649,10 @@ export default function Home(){
                           <div className="col-lg-2">
                               <div className=" project-box-h project-list line-4">
                                 <ul>
-                                    <li>*225($3)/hr</li>
-                                    <li>*345($4.5)/hr</li>
-                                    <li>*255($3)/hr</li>
-                                    <li>*175($2.5)/hr</li>
+                                    <li>*₹225($3)/hr</li>
+                                    <li>*₹345($4.5)/hr</li>
+                                    <li>*₹255($3)/hr</li>
+                                    <li>*₹175($2.5)/hr</li>
                                 </ul>
                               </div>
                           </div>
