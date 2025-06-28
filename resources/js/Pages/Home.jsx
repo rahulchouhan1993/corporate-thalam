@@ -129,7 +129,7 @@ export default function Home(){
             </div>
         </section>
 
-        <section className="about-section" id="scroll-about">
+        <section className="about-section homeaboutsect" id="scroll-about">
             <div className="container">
                 <h2>ABOUT <span className="highlight">US</span></h2>
                 <div className="about-grid">
@@ -167,7 +167,7 @@ export default function Home(){
             </div>
         </section>
 
-        <section className="industries-section" id="scroll-work">
+        <section className="industries-section homemoreindustry" id="scroll-work">
             <div className="container">
                 <h2>
                     <span className="highlight">INDUSTRIES</span> WE WORK
@@ -407,7 +407,7 @@ export default function Home(){
                     <div className="tab-content" id="myTabContent">
                         <div className="tab-pane fade show active" id="mediaProductionCorporates" role="tabpanel" aria-labelledby="mediaProductionCorporates-tab">
                             <div className="serviceListBx">
-                                <ul>
+                                <ul className="hometabservicelist">
                                     <li>
                                         <a href="#">
                                         <span>
@@ -416,7 +416,7 @@ export default function Home(){
                                         <span className="serviceListTitle">Service Posters</span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className="mobilehide"> 
                                         <a href="#">
                                         <span>
                                         <img src="images/servicepor02.jpg" alt="img" />
@@ -424,7 +424,7 @@ export default function Home(){
                                         <span className="serviceListTitle">Reels & Shorts</span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className="mobilehide">
                                         <a href="#">
                                         <span>
                                         <img src="images/servicepor03.jpg" alt="img" />
@@ -432,7 +432,7 @@ export default function Home(){
                                         <span className="serviceListTitle">Podcasts & Personal Branding</span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className="mobilehide">
                                         <a href="#">
                                         <span>
                                         <img src="images/servicepor04.jpg" alt="img" />
@@ -454,7 +454,7 @@ export default function Home(){
             </div>
         </section>
 
-        <section className="service-model">
+        <section className="service-model homedeliveryboxsec">
             <div className="container" id="delivery-model-scroll">
                 <div className="service-layout">
                     <div className="servicelayoutBx">
@@ -593,7 +593,7 @@ export default function Home(){
             </div>
         </section>
 
-        <div className="pricingMethBx" id="scroll-pricing">
+        <div className="pricingMethBx homemathopricesec" id="scroll-pricing">
             <h2 className="heading">Our <span>Pricing</span> Methodologies </h2>
             <section className="pricing-methodolgies">
               <div className="container">
@@ -670,7 +670,7 @@ export default function Home(){
             </section>
         </div>
 
-        <section className="pricing-section">
+        <section className="pricing-section homepricesec">
             <div className="container">
                 <div className="pricing-card">
                     <h3>Monthly Package</h3>

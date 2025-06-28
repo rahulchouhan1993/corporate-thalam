@@ -3899,6 +3899,14 @@ section.pro .row {
 .clientsBx.homeworkclient .client-logo img { height: 100%; width: 100%; object-fit: contain; }
 .footer-middle .contact-info::before { display: none; }
 .footer-middle .contact-info { width: 50%; }
+/*  */
+.team-slider-wrapper .slick-slider .slick-arrow, .review-slider .slick-slider .slick-arrow { width: 40px !important; height:40px; background: #ffffff !important; z-index: 9; font-size: 0; border-radius: 80px; display: flex !important; align-items:center; align-content:center; justify-content:center; left:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+.team-slider-wrapper .slick-slider .slick-arrow::before, .review-slider .slick-slider .slick-arrow::before  { content: ""; width: 10px; height: 10px; border-top: 2px solid #01123d; border-left: 2px solid #01123d; transform: translate(2px, 1px) rotate(315deg); opacity: 1;} 
+.team-slider-wrapper .slick-slider .slick-arrow.slick-next, .review-slider .slick-slider .slick-arrow.slick-next { left: auto; right: 10px;  } 
+.team-slider-wrapper .slick-slider .slick-arrow.slick-next:before, .review-slider .slick-slider .slick-arrow.slick-next:before { transform: translate(-2px, 1px) rotate(136deg);}
+
+
+
 
 
 
@@ -4202,6 +4210,11 @@ section.strategic-sec { padding-bottom: 0 !important; }
 .brand-shoot.b1.persbrandimg .brand-photo img { width: 100%; }
 .strategic-boxes.story-boxes-img { width: 100% !important; } 
 .storytellingsec .class-one span {position: relative;}
+.logo img { width: 120px; }
+header .navbar { padding: 20px 10px 0;}
+.toplayer, .bottomlayer { top: 27px;}
+.services-section .services-grid { gap: 10px; }
+.services-section .service-box { height: 150px !important; }
 
 }
 
