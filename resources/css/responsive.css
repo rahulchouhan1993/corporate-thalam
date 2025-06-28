@@ -2184,9 +2184,12 @@ section.herobanner-services { min-height: 390px; }
 .member-section h2 { margin: 0 0 20px; }
 .member-section .member-grid { display: grid ; grid-template-columns: repeat(2, 1fr); margin-bottom: 25px; }
 .member-section .register-btn a { width: auto; display: inline-block; padding: 10px 20px; }
-.pricing-section.homepricesec .pricing-card { text-align: center; border-radius: 0px 20px; }
-.homepricesec .pricing-card .pricing-box { border-radius: 20px 0px; }
+.pricing-section.homepricesec .pricing-card { text-align: center; border-radius: 0px 20px; background: rgba(255,255,255,0.5); }
+.homepricesec .pricing-card h3 { color: #fff; font-family: "GothamMedium"; }
+.homepricesec .pricing-card p { color: #fff; padding: 0; font-size: 15px;  font-family: "GothamRegular"; }
+.homepricesec .pricing-card .pricing-box { border-radius: 20px 0px;  font-family: "GothamMedium"; }
 .homepricesec .pricing-card .price { font-size: 15px; flex-wrap: nowrap; flex-direction: inherit; justify-content: space-evenly;  padding: 3px 0 0; }
+
 
 }
 
