@@ -131,7 +131,7 @@ export default function DigitalMarketing(){
                 <div className="col-lg-12">
                 <div className="stragetic-box-bottom">
                     <div className="bottom-btn">
-                    <a href="#">Contact Us</a>
+                    <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank">Contact Us</a>
                     </div>
                 </div>
                 </div>

@@ -131,7 +131,7 @@ export default function ClientSatisfaction(){
       <div className="container">
             <div className="precisionheading">
               <h3>Creative Precision, Strategic Execution – Every Time.</h3>
-              <a href="#" className="btncreative">Contact Us</a>
+              <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="btncreative">Contact Us</a>
             </div>
       </div>
     </section>

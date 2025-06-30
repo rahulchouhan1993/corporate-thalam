@@ -82,7 +82,7 @@ export default function Influencers(){
     </div>
     <div class="col-lg-12">
     <div class="bottom-btn1 brand-4 blue-btn">
-        <a href="#" class="btn-primary">Contact Us</a>
+        <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" class="btn-primary">Contact Us</a>
     </div>
     </div>
     </div>

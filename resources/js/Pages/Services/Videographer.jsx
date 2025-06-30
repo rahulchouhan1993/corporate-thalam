@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 export default function Videographer(){
     return (
     <>
@@ -67,7 +68,7 @@ export default function Videographer(){
                                     <p>CT25 offer skilled photographers, videographers, and full production crew on an hourly basis.</p>
                                     <div className="stragetic-box-bottom">
                                         <div className="bottom-btn1 ">
-                                            <a href="#">Contact Us</a>
+                                            <a target="_blank" href="https://forms.gle/NPyErfsyBiVTxy9N8">Contact Us</a>
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +141,7 @@ export default function Videographer(){
                     <div className="col-lg-12">
                         <div className="stragetic-box-bottom ser-6-btn">
                             <div className="bottom-btn1">
-                                <a href="#">View Our Pricing </a>
+                                <Link href="/pricing">View Our Pricing </Link>
                             </div>
                         </div>
                     </div>

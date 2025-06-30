@@ -57,7 +57,7 @@ export default function Startup(){
                     </ul>
                 </div>
                 <div className="dayweekbtn">
-                    <a href="#" className="btn lighbluebgbtn">Contact Us</a>
+                    <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="btn lighbluebgbtn">Contact Us</a>
                 </div>
             </div>
         </section>

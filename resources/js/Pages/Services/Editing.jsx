@@ -28,7 +28,7 @@ export default function Editing(){
                     <h1>Professional Video Editing</h1>
                     <p className="expe-p">Seamless storytelling through precise cuts, smooth transitions, and audio synchronization.</p>
                     <div className="bottom-btn1 blue-btn">
-                    <a href="#">Contact Us</a>
+                    <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank">Contact Us</a>
                     </div>
                 </div>
                 </div>
@@ -37,7 +37,7 @@ export default function Editing(){
                 <div className="expert-btn watchgrapbbtn">
                 
                 <div className="bottom-btn1 ">
-                    <a href="#">Watch CT25 Do</a>
+                    <a href="#">What CT25 Do</a>
                 </div>
                 
                 </div>

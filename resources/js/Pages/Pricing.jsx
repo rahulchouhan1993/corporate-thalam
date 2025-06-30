@@ -37,8 +37,8 @@ export default function Pricing(){
                   <li>✅ Ideal for Instagram, YouTube Shorts & WhatsApp</li>
                 </ul>
                 <div className="priceboxbtns">
-                  <a href="#" className="first-btn">Request a Simple</a>
-                  <a href="#" className="second-btn">Call Us</a>
+                  <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="first-btn">Request a Simple</a>
+                  <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="second-btn">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function Pricing(){
                   <li>✅ <span>Revisions and formatting included</span></li>
                 </ul>
                 <div className="priceboxbtns">
-                  <a href="#" className="first-btn">Request a Simple</a>
-                  <a href="#" className="second-btn">Call Us</a>
+                  <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="first-btn">Request a Simple</a>
+                  <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="second-btn">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -83,8 +83,8 @@ export default function Pricing(){
                   <li>✅ One round of revision included.</li>
                 </ul>
                 <div className="priceboxbtns">
-                  <a href="#" className="first-btn">Request a Simple</a>
-                  <a href="#" className="second-btn">Call Us</a>
+                  <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="first-btn">Request a Sample</a>
+                  <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="second-btn">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function Pricing(){
           </div>
           <div className="col-lg-12">
             <div className="bottom-btn1 brand-4 in-f">
-              <a href="#">Request a Quote</a>
+              <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank">Request a Quote</a>
             </div>
           </div>
         </div>

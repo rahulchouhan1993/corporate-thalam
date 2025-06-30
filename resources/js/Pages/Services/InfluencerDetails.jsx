@@ -31,7 +31,7 @@ export default function InfluencerDetails(){
         <section className="watherstartup">
             <div className="container">
                 <h3 className="startsmheading">Whether you're a <span>nano, micro</span>, or <span>macro influencer</span>, CT25 gives you a structured and safe space to grow with real brand projects.</h3>
-                <a href="#" className="btn whiteborderbtn">Join Us</a>
+                <a href="https://forms.gle/CzGahMy5GF4Wijen7" target="_blank" className="btn whiteborderbtn">Join Us</a>
             </div>
         </section>
 

@@ -372,7 +372,7 @@ export default function Home(){
                     </div>
                 </div>
                 <div className="register-btn">
-                    <a href="#">Free Register Now</a>
+                    <a href="https://forms.gle/CzGahMy5GF4Wijen7" target="_blank">Free Register Now</a>
                 </div>
             </div>
         </section>
@@ -577,7 +577,7 @@ export default function Home(){
                         </div>
                         <div className="cta-row">
                           <p>Looking for Career with CT25 ?</p>
-                          <button>Apply Now</button>
+                          <button onClick={() => window.open('https://forms.gle/CzGahMy5GF4Wijen7', '_blank')}>Apply Now</button>
                         </div>
                     </div>
                   </div>
@@ -710,7 +710,7 @@ export default function Home(){
                 <p> Once the estimation is finalized and approved, the hourly rates listed in our pricing matrix are applied. This ensures that clients pay only for the exact effort required, with no hidden costs. Our process not only gives clients complete visibility but also makes us one of the most affordable and reliable media partners in the industry. </p>
                 <div className="pricing-buttons">
                     <Link href="/pricing" className="btn-primary">View Packages</Link>
-                    <a href="#" className="btn-outline">Contact Us for Quotation</a>
+                    <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank" className="btn-outline">Contact Us for Quotation</a>
                 </div>
             </div>
         </section>
@@ -740,7 +740,7 @@ export default function Home(){
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> what are the costs </button>
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                            <div className="accordion-body"> we apply our hourly rates from the pricing matrix, ensuring you only pay for the exact effort required, with no hidden fees. </div>
+                            <div className="accordion-body"> We use a transparent pricing model based on actual effort — no hidden fees. You only pay for the expertise and time truly needed.</div>
                         </div>
                     </div>
                     <div className="accordion-item">
@@ -748,7 +748,7 @@ export default function Home(){
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> what does our process involve </button>
                         </h2>
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-                            <div className="accordion-body"> we apply our hourly rates from the pricing matrix, ensuring you only pay for the exact effort required, with no hidden fees. </div>
+                            <div className="accordion-body"> We start by understanding your goals, then create and execute a custom strategy. You get regular updates and clear milestones.</div>
                         </div>
                     </div>
                     <div className="accordion-item">
@@ -756,7 +756,7 @@ export default function Home(){
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> how do we ensure quality control </button>
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                            <div className="accordion-body"> we apply our hourly rates from the pricing matrix, ensuring you only pay for the exact effort required, with no hidden fees. </div>
+                            <div className="accordion-body"> We follow strict review processes with multiple checkpoints. Every deliverable is carefully checked to meet our high standards.</div>
                         </div>
                     </div>
                     <div className="accordion-item">
@@ -764,7 +764,7 @@ export default function Home(){
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> what tools do we use for project management </button>
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
-                            <div className="accordion-body"> we apply our hourly rates from the pricing matrix, ensuring you only pay for the exact effort required, with no hidden fees. </div>
+                            <div className="accordion-body"> We use tools like Asana, Notion, and Slack to manage projects smoothly. You’ll always have full visibility and real-time updates.</div>
                         </div>
                     </div>
                     <div className="accordion-item">
@@ -772,7 +772,7 @@ export default function Home(){
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> how can we improve team collaboration </button>
                         </h2>
                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
-                            <div className="accordion-body"> we apply our hourly rates from the pricing matrix, ensuring you only pay for the exact effort required, with no hidden fees. </div>
+                            <div className="accordion-body">We encourage open communication and structured feedback. This ensures ideas flow freely and every team member contributes fully.</div>
                         </div>
                     </div>
                 </div>

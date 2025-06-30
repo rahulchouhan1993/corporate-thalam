@@ -39,7 +39,7 @@ export default function CorporateStory(){
                 it’s the bridge between brands and the people they want to reach. And that’s exactly where we come in.
               </p>
               <div className="bottom-btn1 blue-btn">
-                <a href="#">Contact Us</a>
+                <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank">Contact Us</a>
               </div>
 
             </div>

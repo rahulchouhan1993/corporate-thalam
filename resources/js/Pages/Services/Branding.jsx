@@ -34,7 +34,7 @@ export default function Branding(){
                 <div className="col-lg-12">
                 <div className="stragetic-box-bottom cta-bottom">
                     <div className="bottom-btn1">
-                    <a href="#">Contact Us</a>
+                    <a href="https://forms.gle/NPyErfsyBiVTxy9N8" target="_blank">Contact Us</a>
                     </div>
                 </div>
                 </div>
