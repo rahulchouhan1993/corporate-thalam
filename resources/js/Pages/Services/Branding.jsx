@@ -23,13 +23,25 @@ export default function Branding(){
                 
                 </div>
                 </div>
-                <div className="col-lg-12 " >
-                <div className="brand-photo">
-                    <img src="/images/per1.jpeg" />
-                    <img src="/images/per2.jpeg" />
-                    <img src="/images/per3.jpeg" />
-                    <img src="/images/per4.jpeg" />
+                <div className="col-lg-3 col-md-6 mrbtm" >
+                    <div className="brandphotoct">
+                        <img src="/images/per1.jpeg" />
+                    </div>
                 </div>
+                <div className="col-lg-3 col-md-6 mrbtm" >
+                    <div className="brandphotoct">
+                        <img src="/images/per2.jpeg" />
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6 mrbtm" >
+                    <div className="brandphotoct">
+                        <img src="/images/per3.jpeg" />
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6 mrbtm" >
+                    <div className="brandphotoct">
+                        <img src="/images/per4.jpeg" />
+                    </div>
                 </div>
                 <div className="col-lg-12">
                 <div className="stragetic-box-bottom cta-bottom">

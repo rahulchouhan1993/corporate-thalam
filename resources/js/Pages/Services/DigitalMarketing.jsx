@@ -33,7 +33,7 @@ export default function DigitalMarketing(){
                 </div>
                 </div>
                 <div className="col-lg-6">
-                <div className="brand-photo">
+                <div className="brand-photo singleimgbox">
                     <img src="/images/digital-markt.jpg" alt="" />
                 </div>
                 </div>
@@ -44,7 +44,7 @@ export default function DigitalMarketing(){
             <div className="container">
             <div className="row">
                 <div className="col-lg-6">
-                <div className="brand-photo ">
+                <div className="brand-photo dmartkimgbox">
                     <img src="/images/Rectangle-50.png" alt="" />
                     <img src="/images/Rectangle 49.png" alt="" />  
                 </div>
@@ -82,7 +82,7 @@ export default function DigitalMarketing(){
                 </div>
                 </div>
                 <div className="col-lg-6">
-                <div className="brand-photo b-22">
+                <div className="brand-photo b-22 focusimgbox">
                     <img src="/images/lead01.jpeg" alt="" />
                     <img src="/images/lead02.jpeg" alt="" />  
                 </div>

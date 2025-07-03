@@ -33,14 +33,14 @@ export default function Training(){
                 </div>
                 </div>
                 <div className="col-lg-6">
-                    <div className="row">
+                    <div className="row  h-100">
                         <div className="col-lg-6">
-                            <div className="brand-photo">
+                            <div className="brand-photo fullheightimg">
                                 <img className="p-0" src="/images/course1.png" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="brand-photo">
+                            <div className="brand-photo fullheightimg">
                                 <img className="p-0" src="/images/course2.png" alt="" />
                             </div>
                         </div>

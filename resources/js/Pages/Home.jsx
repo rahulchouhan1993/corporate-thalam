@@ -549,7 +549,7 @@ export default function Home(){
               <div className="grid-wrapper">
                   <div className="grid-row top-row">
                     <div className="grid-item w-20">
-                        <img src="images/behindseenimg.jpg" alt="1" />
+                        <img src="images/behindseenimgn.jpg" alt="1" />
                     </div>
                     <div className="grid-item w-20">
                         <img src="images/behindseenimg7.jpg" alt="2" />
@@ -557,7 +557,7 @@ export default function Home(){
                     <div className="grid-item w-35">
                         <img src="images/behindseenimg3.jpg" alt="3" />
                     </div>
-                    <div className="grid-item w-24 text-box">
+                    <div className="grid-item w-24 text-box objectleft">
                         <img src="images/behindseenimg2.jpg" alt="3" />
                         
                     </div>
