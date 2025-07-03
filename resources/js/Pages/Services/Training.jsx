@@ -36,12 +36,12 @@ export default function Training(){
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="brand-photo">
-                                <img className="p-0" src="/images/digi.png" alt="" />
+                                <img className="p-0" src="/images/course1.png" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="brand-photo">
-                                <img className="p-0" src="/images/digi2.png" alt="" />
+                                <img className="p-0" src="/images/course2.png" alt="" />
                             </div>
                         </div>
                     </div>

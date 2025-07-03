@@ -34,7 +34,7 @@ export default function DigitalMarketing(){
                 </div>
                 <div className="col-lg-6">
                 <div className="brand-photo">
-                    <img src="/images/Rectangle 48.png" alt="" />
+                    <img src="/images/digital-markt.jpg" alt="" />
                 </div>
                 </div>
             </div>
