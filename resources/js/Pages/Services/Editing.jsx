@@ -22,7 +22,7 @@ export default function Editing(){
                     <p>CT25 – an Experienced Video Editor and Colour Grading Specialist, crafting visually stunning stories that elevate digital presence and brand identity.</p>
                 </div>
                 <div className="expert-image">
-                    <img src="/images/Rectangle 48.png" alt="" />
+                    <img src="/images/whatwedo1.jpeg" alt="" />
                 </div>
                 <div className="expert-content-bottom video-expert-content">
                     <h1>Professional Video Editing</h1>
@@ -49,7 +49,7 @@ export default function Editing(){
                     <p>Enhance mood, tone, and style using industry-standard software like DaVinci Resolve, Adobe Premiere Pro, and Final Cut Pro. Commercial & Ad Films: Visual polish for brand advertisements, product promos, and corporate videos</p>
                 </div>
                 <div className="expert-image">
-                    <img src="/images/Rectangle 48.png" alt="" />
+                    <img src="/images/whatwedo2.jpeg" alt="" />
                 </div>
                 </div>
             </div>

@@ -2033,7 +2033,7 @@ section.strategic-sec.sser-2 .brand-head {
 /* SERVICES-PAGE-2 */
 /* HEROBANNER2 */
 .services-2 {
-  background-image: url('/images/Rectangle-32.png');
+  background-image: url('/images/lead-hero.jpeg');
   background-color: unset !important;
 }
 
@@ -2211,7 +2211,7 @@ section.brand-shoot.b1 .brand-photo {
 }
 
 .services-4\.0 {
-  background-image: url('/images/service-4.png');
+  background-image: url('/images/event-hero.jpeg');
   position: relative;
 }
 
@@ -2228,11 +2228,45 @@ section.brand-shoot.b1 .brand-photo {
 }
 
 .services-3 {
-  background-image: url('/images/imag-bg.png');
+  background-image: url('/images/social-hero.jpeg');
   position: relative;
 }
 
+.services-5 {
+  background-image: url('/images/personal-hero.jpeg');
+  position: relative;
+}
+
+.services-8 {
+  background-image: url('/images/training-hero.jpeg');
+  position: relative;
+}
+
+.services-5::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: -2;
+}
+
 .services-3::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: -2;
+}
+
+.services-8::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -2430,7 +2464,7 @@ videoSec {
 
 /* services-6 */
 .services-6 {
-  background-image: url('/images/bg-ser6.png');
+  background-image: url('/images/video-hero.jpeg');
   position: relative;
 }
 
@@ -2673,7 +2707,7 @@ section.expert-video {
 }
 
 .service-1 {
-  background-image: url('/images/service-1.png');
+  background-image: url('/images/commercial-hero.jpeg');
   position: relative;
 }
 
@@ -3078,6 +3112,18 @@ section.highlights {
 .ser-1\.0 h1 {
   width: 100%;
   font-size: 60px;
+}
+
+.service-1::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: -2;
 }
 
 section.trust-foundation {

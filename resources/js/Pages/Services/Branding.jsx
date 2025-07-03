@@ -1,7 +1,7 @@
 export default function Branding(){
     return (
     <>
-        <section className="herobanner-services services-3">
+        <section className="herobanner-services services-5">
             <div className="container">
             <div className="row">
                 <div className="col-lg-12">
@@ -25,10 +25,10 @@ export default function Branding(){
                 </div>
                 <div className="col-lg-12 " >
                 <div className="brand-photo">
-                    <img src="/images/se.png" />
-                    <img src="/images/se2.png" />
-                    <img src="/images/se3.png" />
-                    <img src="/images/se4.png" />
+                    <img src="/images/per1.jpeg" />
+                    <img src="/images/per2.jpeg" />
+                    <img src="/images/per3.jpeg" />
+                    <img src="/images/per4.jpeg" />
                 </div>
                 </div>
                 <div className="col-lg-12">

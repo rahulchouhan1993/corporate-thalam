@@ -25,20 +25,20 @@ const InfluencerSlider = () => {
 
   const reviews = [
     {
-      img: "/images/Frame 151.png",
-      title: "Fashion"
-    },
-    {
       img: "/images/Frame 156.png",
-      title: "Education"
+      title: ""
     },
     {
       img: "/images/Frame 158.png",
-      title: "Fitness"
+      title: ""
     },
     {
       img: "/images/Frame 159.png",
-      title: "Real Estate"
+      title: ""
+    },
+    {
+      img: "/images/Frame 151.png",
+      title: ""
     }
   ];
 

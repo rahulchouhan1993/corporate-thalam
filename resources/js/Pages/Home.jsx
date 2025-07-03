@@ -670,9 +670,9 @@ export default function Home(){
                     <div className="pricing-box">
                         <strong>15 Posters & 5 Shorts/Reels</strong>
                         <div className="price">
-                            <span>INR 20,000. </span>
-                            <span>USD 235.</span>
-                            <span>AED 870. </span>
+                            <span>INR 2000 </span>
+                            <span>USD 23.31</span>
+                            <span>AED 85.59 </span>
                         </div>
                     </div>
                 </div>
@@ -682,9 +682,9 @@ export default function Home(){
                     <div className="pricing-box">
                         <strong>1Min Reel with engaging contents</strong>
                         <div className="price">
-                            <span>INR 20,000. </span>
-                            <span>USD 235.</span>
-                            <span>AED 870. </span>
+                            <span>INR 6000 </span>
+                            <span>USD 69.92</span>
+                            <span>AED 256.79 </span>
                         </div>
                     </div>
                 </div>
@@ -817,6 +817,11 @@ export default function Home(){
                 <div className="col-6 col-md-3">
                     <div className="client-logo">
                         <img className="img-fluid" src="images/client07.jpeg" alt="img" />
+                    </div>
+                </div>
+                <div className="col-6 col-md-3">
+                    <div className="client-logo">
+                        <img className="img-fluid" src="images/client08.jpeg" alt="img" />
                     </div>
                 </div>
                 

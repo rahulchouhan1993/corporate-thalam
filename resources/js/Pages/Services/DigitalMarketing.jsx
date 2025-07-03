@@ -83,8 +83,8 @@ export default function DigitalMarketing(){
                 </div>
                 <div className="col-lg-6">
                 <div className="brand-photo b-22">
-                    <img src="/images/Rectangle -51.png" alt="" />
-                    <img src="/images/Rectangle -52.png" alt="" />  
+                    <img src="/images/lead01.jpeg" alt="" />
+                    <img src="/images/lead02.jpeg" alt="" />  
                 </div>
                 </div>
             </div>

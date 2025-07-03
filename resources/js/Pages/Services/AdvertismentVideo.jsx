@@ -38,7 +38,7 @@ export default function AdvertismentVideo(){
             </div>
             <div className="col-lg-6">
               <div className="brand-photo br-2">
-                <img src="/images/service-img1.png" alt="" />
+                <img src="/images/video-shoot.jpeg" alt="" />
               </div>
             </div>
           </div>

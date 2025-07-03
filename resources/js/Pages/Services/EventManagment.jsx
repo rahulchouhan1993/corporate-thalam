@@ -88,7 +88,7 @@ export default function EventManagment(){
           <div className="col-lg-4 crew-left">
             <div className="imag-main-event1">
               <div className="imagebox-event">
-                <img src="/images/event2.png" />
+                <img src="/images/workspace.jpeg" />
               </div>
               <div className="image-content-eent">
                 <h1>Workshop</h1>
