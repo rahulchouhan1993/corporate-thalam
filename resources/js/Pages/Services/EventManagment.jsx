@@ -77,7 +77,7 @@ export default function EventManagment(){
           <div className="col-lg-4">
             <div className="imag-main-event1">
               <div className="imagebox-event">
-                <img src="/images/event4.png" />
+                <img src="/images/evt-4.jpg" />
               </div>
               <div className="image-content-eent">
                 <h1>Award Ceremonies</h1>
@@ -99,7 +99,7 @@ export default function EventManagment(){
           <div className="col-lg-4">
             <div className="imag-main-event1">
               <div className="imagebox-event">
-                <img src="/images/event1.png" />
+                <img src="/images/evt-3.jpeg" />
               </div>
               <div className="image-content-eent">
                 <h1>Business Conclave</h1>

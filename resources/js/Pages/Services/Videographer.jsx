@@ -91,7 +91,7 @@ export default function Videographer(){
                     <div className="col-lg-4 col-md-6">
                         <div className="imag-main-event1 crew-bottom">
                             <div className="imagebox-event">
-                                <img src="/images/1oo.png" />
+                                <img src="/images/personal-branding-shoot.jpeg" />
                             </div>
                             <div className="image-content-eent">
                                 <h1>Personal Branding Shoots</h1>
@@ -111,7 +111,7 @@ export default function Videographer(){
                     <div className="col-lg-4 col-md-6">
                         <div className="imag-main-event1 crew-bottom">
                             <div className="imagebox-event">
-                                <img src="/images/3oo.png" />
+                                <img src="/images/product-shoot.jpeg" />
                             </div>
                             <div className="image-content-eent">
                                 <h1>Product & Fashion Shoots</h1>

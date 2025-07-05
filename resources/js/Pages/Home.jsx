@@ -381,7 +381,7 @@ export default function Home(){
             <div className="container">
                 <h2 className="ourworkHead">Our <span>Works</span></h2>
                 <div className="ourWorkTabs">
-                    <ul className="nav nav-tabs" id="myTab" role="tablist">
+                    {/* <ul className="nav nav-tabs" id="myTab" role="tablist">
                         <li className="nav-item" role="presentation">
                             <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#mediaProductionCorporates" type="button" role="tab" aria-controls="mediaProductionCorporates" aria-selected="true"> Media Production For Corporates</button>
                         </li>
@@ -395,7 +395,7 @@ export default function Home(){
                         <li onClick={() => window.location.href = '/works/scripting'}  className="nav-item" role="presentation">
                             <button className="nav-link" id="Scripting-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="Scripting" aria-selected="false">Conceptualization & Scripting</button>
                         </li>
-                    </ul>
+                    </ul> */}
                     <div className="tab-content" id="myTabContent">
                         <div className="tab-pane fade show active" id="mediaProductionCorporates" role="tabpanel" aria-labelledby="mediaProductionCorporates-tab">
                             <div className="serviceListBx">
@@ -433,9 +433,9 @@ export default function Home(){
                                         </a>
                                     </li>
                                 </ul>
-                                <div className="viewAll">
+                                {/* <div className="viewAll">
                                     <Link href="/works/media-production-for-corporates">View all</Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="tab-pane fade" id="mediaProductionPolitics" role="tabpanel" aria-labelledby="mediaProductionPolitics-tab">...</div>
@@ -670,9 +670,9 @@ export default function Home(){
                     <div className="pricing-box">
                         <strong>15 Posters & 5 Shorts/Reels</strong>
                         <div className="price">
-                            <span>INR 2000 </span>
-                            <span>USD 23.31</span>
-                            <span>AED 85.59 </span>
+                            <span>INR 20,000 </span>
+                            <span>USD 235 </span>
+                            <span>AED 870 </span>
                         </div>
                     </div>
                 </div>
@@ -682,9 +682,9 @@ export default function Home(){
                     <div className="pricing-box">
                         <strong>1Min Reel with engaging contents</strong>
                         <div className="price">
-                            <span>INR 6000 </span>
-                            <span>USD 69.92</span>
-                            <span>AED 256.79 </span>
+                            <span>INR 2,000 </span>
+                            <span>USD 25</span>
+                            <span>AED 90 </span>
                         </div>
                     </div>
                 </div>
@@ -694,9 +694,9 @@ export default function Home(){
                     <div className="pricing-box">
                         <strong>10 Min Long Video with engaging contents</strong>
                         <div className="price">
-                            <span>INR 20,000. </span>
-                            <span>USD 235.</span>
-                            <span>AED 870. </span>
+                            <span>INR 6,500 </span>
+                            <span>USD 80 </span>
+                            <span>AED 285 </span>
                         </div>
                     </div>
                 </div>
