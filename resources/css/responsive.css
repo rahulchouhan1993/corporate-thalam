@@ -915,9 +915,9 @@
     padding: 16px 123px;
   }
 
-  .marquee-container {
+  /* .marquee-container {
     width: 172% !important;
-  }
+  } */
 
   .main-btn-ser {
     flex-wrap: wrap;
@@ -1824,9 +1824,9 @@
   }
 
   /* MARQUEE RESPONSIVENESS */
-  .marquee-container {
+  /* .marquee-container {
     width: 250% !important;
-  }
+  } */
 
   .marquee-track {
 

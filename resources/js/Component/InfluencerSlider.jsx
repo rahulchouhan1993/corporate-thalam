@@ -9,7 +9,7 @@ const InfluencerSlider = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -19,6 +19,10 @@ const InfluencerSlider = () => {
       {
         breakpoint: 576,
         settings: { slidesToShow: 2 }
+      },
+      {
+        breakpoint: 420,
+        settings: { slidesToShow: 1 }
       }
     ]
   };
